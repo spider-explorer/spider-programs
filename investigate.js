@@ -65,7 +65,7 @@ for (let key of keys)
 {
     let app = await scoopAppInfo(key, programs[key]);
     console.log(app);
-    investigate[app.name] = { "version": app.version, "path": app.path, "url": app.url };
+    investigate["software"][app.name] = { "version": app.version, "path": app.path, "url": app.url };
     if (!app.exists)
     {
         Deno.chdir(app.dir);
