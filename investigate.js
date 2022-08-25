@@ -28,6 +28,7 @@ async function executePipe(v) {
 
 async function scoopAppInfo(key, path) {
     await execute(["cmd.exe", "/c", "scoop", "install", key]);
+    await execute(["cmd.exe", "/c", "scoop", "update", key]);
     let st = await executePipe(["scoop-console-x86_64-static.exe", "--latest", key]);
     let list = st.stdout.trim().split(" ");
     let version = list[0];
@@ -36,6 +37,8 @@ async function scoopAppInfo(key, path) {
     st = await executePipe(["curl.exe", url, "-o", "/dev/null", "-w", "%{http_code}", "-s"]);
     return { "name": key, "path": path, "version": version, "dir": dir, "url": url, "exists": st.stdout != "404" };
 }
+
+let cwd = Deno.cwd();
 
 console.log("hello!");
 
@@ -48,14 +51,31 @@ let programs = JSON.parse(await Deno.readTextFile('programs.json'));
 let keys = Object.keys(programs);
 console.log(keys);
 
+let buildDir = cwd + "\\build";
+Deno.mkdir(buildDir, { recursive: true });
+
+//Deno.exit(777);
+
 for (let key of keys)
 {
     let app = await scoopAppInfo(key, programs[key]);
     console.log(app);
     investigate[app.name] = { "version": app.version, "path": app.path, "url": app.url };
+    if (!app.exists)
+    {
+        Deno.chdir(app.dir);
+        await execute(["cmd.exe", "/c", "dir"]);
+        let archive = buildDir + `/${app.name}-${app.version}.7z`;
+        await execute(["7z.exe", "a", "-r", archive, "*"]);
+        console.log("(1)");
+        Deno.chdir(cwd);
+        await execute(["gh.exe", "auth", "login", "--with-token", Deno.env.get("GITHUB_ALL")]);
+        console.log("(2)");
+        await execute(["gh.exe", "release", "upload", "64bit", archive]);
+        console.log("(3)");
+        //Deno.exit(123);
+    }
 }
-
-let cwd = Deno.cwd();
 
 Deno.writeTextFile("spider-programs.json", JSON.stringify(investigate, null, 2));
 //console.log(Deno.cwd());
