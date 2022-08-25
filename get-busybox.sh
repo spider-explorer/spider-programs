@@ -5,7 +5,8 @@ rm -rf tmp
 mkdir tmp
 cd tmp
 rm -rf busybox64.exe
-wget.exe --no-check-certificate https://frippery.org/files/busybox/busybox64.exe
+#wget.exe --no-check-certificate https://frippery.org/files/busybox/busybox64.exe
+wget.exe --no-check-certificate https://frippery.org/files/busybox/prerelease/busybox_pre64.exe -O busybox64.exe
 if diff busybox64.exe ../busybox64.exe ; then
     echo "No Diff."
     exit 0
