@@ -41,10 +41,8 @@ let st = await p.status();
 console.log(st);
 */
 
-let json = await Deno.readTextFile('data.json');
-console.log(json);
-
-console.log(JSON.parse(json));
+let programs = JSON.parse(await Deno.readTextFile('programs.json'));
+console.log(Object.keys(programs));
 
 console.log(Deno.cwd());
 
