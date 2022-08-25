@@ -40,6 +40,11 @@ async function scoopAppInfo(key, path) {
 
 let cwd = Deno.cwd();
 
+await execute(["cmd.exe", "/c", "scoop", "install", "git"]);
+await execute(["cmd.exe", "/c", "scoop", "bucket", "add", "main"]);
+await execute(["cmd.exe", "/c", "scoop", "bucket", "add", "extras"]);
+await execute(["cmd.exe", "/c", "scoop", "bucket", "add", "java"]);
+
 console.log("hello!");
 
 console.log(await executePipe(["echo", "hello漢字©"]));
@@ -66,7 +71,7 @@ for (let key of keys)
         Deno.chdir(app.dir);
         await execute(["cmd.exe", "/c", "dir"]);
         let archive = buildDir + `/${app.name}-${app.version}.7z`;
-        await execute(["7z.exe", "a", "-r", archive, "*"]);
+        await execute(["7z.exe", "a", "-r", archive, "*", "-x!User Data", "-x!profile", "-x!distribution"]);
         console.log("(1)");
         Deno.chdir(cwd);
         await execute(["gh.exe", "auth", "login", "--with-token", Deno.env.get("GITHUB_ALL")]);
