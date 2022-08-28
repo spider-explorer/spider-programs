@@ -74,8 +74,8 @@ for (let key of keys)
         await execute(["7z.exe", "a", "-r", archive, "*", "-x!User Data", "-x!profile", "-x!distribution"]);
         console.log("(1)");
         Deno.chdir(cwd);
-        await execute(["gh.exe", "auth", "login", "--with-token", Deno.env.get("GITHUB_ALL")]);
-        console.log("(2)");
+        //await execute(["gh.exe", "auth", "login", "--with-token", Deno.env.get("GITHUB_ALL")]);
+        //console.log("(2)");
         await execute(["gh.exe", "release", "upload", "64bit", archive]);
         console.log("(3)");
         //Deno.exit(123);

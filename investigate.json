@@ -2,10 +2,10 @@
   "version": "?",
   "software": {
     "busybox": {
-      "version": "2022.08.25.19.39.42",
+      "version": "2022.08.28.20.35.32",
       "ext": "7z",
       "path": ".",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/busybox-2022.08.25.19.39.42.7z"
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/busybox-2022.08.28.20.35.32.7z"
     },
     "SimpleBrowser": {
       "version": "v2022.07.26.23.20.00",

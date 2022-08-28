@@ -22,7 +22,7 @@ cd busybox.tmp
 rm -rf ar.exe strings.exe unzip.exe sh.exe sed.exe wget.exe make.exe
 7z a -r ../busybox-$ts.7z *
 cd ..
-echo $GITHUB_ALL | gh auth login --with-token
+#echo $GITHUB_ALL | gh auth login --with-token
 gh release upload 64bit busybox-$ts.7z
 cd $cwd
 cat << EOS > investigate.json

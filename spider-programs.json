@@ -2,10 +2,10 @@
   "version": "?",
   "software": {
     "busybox": {
-      "version": "2022.08.25.19.39.42",
+      "version": "2022.08.28.20.35.32",
       "ext": "7z",
       "path": ".",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/busybox-2022.08.25.19.39.42.7z"
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/busybox-2022.08.28.20.35.32.7z"
     },
     "SimpleBrowser": {
       "version": "v2022.07.26.23.20.00",
@@ -149,9 +149,9 @@
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/sliksvn-1.14.2.7z"
     },
     "gh": {
-      "version": "2.14.6",
+      "version": "2.14.7",
       "path": "/bin",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/gh-2.14.6.7z"
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/gh-2.14.7.7z"
     },
     "googlechrome": {
       "version": "104.0.5112.102",
@@ -264,9 +264,9 @@
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/curl-7.84.0_9.7z"
     },
     "qownnotes": {
-      "version": "22.8.3",
+      "version": "22.8.4",
       "path": ".",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/qownnotes-22.8.3.7z"
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/qownnotes-22.8.4.7z"
     },
     "sed": {
       "version": "4.8",
