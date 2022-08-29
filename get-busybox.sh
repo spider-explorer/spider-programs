@@ -71,12 +71,6 @@ cat << EOS > investigate.json
       "path": ".",
       "url": "https://gitlab.com/spider-explorer/spider-software/-/raw/main/.software/FolderSizePortable/FolderSizePortable-4.9.5.0.zip"
     },
-    "office_x64": {
-      "version": "7.3.2",
-      "ext": "7z",
-      "path": "/program",
-      "url": "https://gitlab.com/spider-explorer/spider-software/-/raw/main/.software/office_x64/office_x64-7.3.2.7z"
-    },
     "winpython": {
       "version": "3.10.5",
       "ext": "7z",

@@ -1,4 +1,5 @@
 {
+    "libreoffice": "/LibreOffice/program",
     "vim": ".",
     "dart": "/bin",
     "mingw-winlibs": "/bin",
