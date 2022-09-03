@@ -1,4 +1,5 @@
 {
+    "git": "/bin",
     "qt-creator": "/bin",
     "libreoffice": "/LibreOffice/program",
     "vim": ".",
@@ -29,7 +30,6 @@
     "file": ".",
     "astyle": "/bin",
     "7zip": ".",
-    "git": "/cmd",
     "nyagos": ".",
     "jq": ".",
     "windows-terminal": ".",

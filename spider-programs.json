@@ -67,6 +67,11 @@
       "path": ".",
       "url": "https://gitlab.com/spider-explorer/spider-software/-/raw/main/.software/nwjs-sdk/nwjs-sdk-v0.66.1.7z"
     },
+    "git": {
+      "version": "2.37.3.windows.1",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/git-2.37.3.windows.1.7z"
+    },
     "qt-creator": {
       "version": "8.0.1",
       "path": "/bin",
@@ -158,9 +163,9 @@
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/gh-2.14.7.7z"
     },
     "googlechrome": {
-      "version": "105.0.5195.54",
+      "version": "105.0.5195.102",
       "path": ".",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/googlechrome-105.0.5195.54.7z"
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/googlechrome-105.0.5195.102.7z"
     },
     "wixtoolset": {
       "version": "3.11.2",
@@ -216,11 +221,6 @@
       "version": "22.01",
       "path": ".",
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/7zip-22.01.7z"
-    },
-    "git": {
-      "version": "2.37.3.windows.1",
-      "path": "/cmd",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/git-2.37.3.windows.1.7z"
     },
     "nyagos": {
       "version": "4.4.12_0",
