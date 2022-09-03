@@ -67,10 +67,15 @@
       "path": ".",
       "url": "https://gitlab.com/spider-explorer/spider-software/-/raw/main/.software/nwjs-sdk/nwjs-sdk-v0.66.1.7z"
     },
+    "qt-creator": {
+      "version": "8.0.1",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/qt-creator-8.0.1.7z"
+    },
     "libreoffice": {
-      "version": "7.4.0.3",
+      "version": "7.4.1.1",
       "path": "/LibreOffice/program",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/libreoffice-7.4.0.3.7z"
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/libreoffice-7.4.1.1.7z"
     },
     "vim": {
       "version": "9.0",
@@ -78,9 +83,9 @@
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/vim-9.0.7z"
     },
     "dart": {
-      "version": "2.17.7",
+      "version": "2.18.0",
       "path": "/bin",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/dart-2.17.7.7z"
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/dart-2.18.0.7z"
     },
     "mingw-winlibs": {
       "version": "12.2.0-14.0.6-10.0.0-r2",
@@ -153,9 +158,9 @@
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/gh-2.14.7.7z"
     },
     "googlechrome": {
-      "version": "104.0.5112.102",
+      "version": "105.0.5195.54",
       "path": ".",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/googlechrome-104.0.5112.102.7z"
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/googlechrome-105.0.5195.54.7z"
     },
     "wixtoolset": {
       "version": "3.11.2",
@@ -173,14 +178,14 @@
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/geany-1.38.7z"
     },
     "deno": {
-      "version": "1.25.0",
+      "version": "1.25.1",
       "path": ".",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/deno-1.25.0.7z"
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/deno-1.25.1.7z"
     },
     "vscode": {
-      "version": "1.70.2",
+      "version": "1.71.0",
       "path": "/bin;.",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/vscode-1.70.2.7z"
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/vscode-1.71.0.7z"
     },
     "cmake": {
       "version": "3.24.1",
@@ -213,9 +218,9 @@
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/7zip-22.01.7z"
     },
     "git": {
-      "version": "2.37.2.windows.2",
+      "version": "2.37.3.windows.1",
       "path": "/cmd",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/git-2.37.2.windows.2.7z"
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/git-2.37.3.windows.1.7z"
     },
     "nyagos": {
       "version": "4.4.12_0",
@@ -248,9 +253,9 @@
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/notepad3-5.21.1129.1.7z"
     },
     "smartgit": {
-      "version": "21.2.3",
+      "version": "21.2.4",
       "path": "/bin",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/smartgit-21.2.3.7z"
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/smartgit-21.2.4.7z"
     },
     "wget": {
       "version": "1.21.3",
@@ -258,9 +263,9 @@
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/wget-1.21.3.7z"
     },
     "curl": {
-      "version": "7.84.0_9",
+      "version": "7.85.0_1",
       "path": "/bin",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/curl-7.84.0_9.7z"
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/curl-7.85.0_1.7z"
     },
     "qownnotes": {
       "version": "22.8.4",

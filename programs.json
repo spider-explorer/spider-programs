@@ -1,4 +1,5 @@
 {
+    "qt-creator": "/bin",
     "libreoffice": "/LibreOffice/program",
     "vim": ".",
     "dart": "/bin",
