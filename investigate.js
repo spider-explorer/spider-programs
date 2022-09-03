@@ -1,3 +1,12 @@
+async function fileExists(filepath) {
+    try {
+        const file = await Deno.stat(filepath);   
+        return file.isFile();
+    } catch (e) {
+        return false
+    }
+}
+
 async function execute(v) {
     const p = Deno.run({
         cmd: v
@@ -71,11 +80,12 @@ for (let key of keys)
         Deno.chdir(app.dir);
         await execute(["cmd.exe", "/c", "dir"]);
         let archive = buildDir + `/${app.name}-${app.version}.7z`;
-        await execute(["7z.exe", "a", "-r", archive, "*", "-x!User Data", "-x!profile", "-x!distribution"]);
+        if (!fileExists(archive)) await execute(["7z.exe", "a", "-r", archive, "*", "-x!User Data", "-x!profile", "-x!distribution"]);
         console.log("(1)");
         Deno.chdir(cwd);
         //await execute(["gh.exe", "auth", "login", "--with-token", Deno.env.get("GITHUB_ALL")]);
-        //console.log("(2)");
+        await execute(["gh.exe", "auth", "login", "--hostname", "github.com"]); // use GH_TOKEN env variable
+        console.log("(2)");
         await execute(["gh.exe", "release", "upload", "64bit", archive]);
         console.log("(3)");
         //Deno.exit(123);
