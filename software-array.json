@@ -1,0 +1,238 @@
+{
+  "software": [
+    {
+      "name": "busybox",
+      "version": "tilde64",
+      "path": ".",
+      "url": "https://gitlab.com/spider-explorer/spider-software/-/raw/main/.software/busybox/busybox-tilde64.7z"
+    },
+    {
+      "name": "idea",
+      "version": "2022.2.3-222.4345.14",
+      "path": "/IDE/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/idea-2022.2.3-222.4345.14.7z"
+    },
+    {
+      "name": "qt-creator",
+      "version": "8.0.1",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/qt-creator-8.0.1.7z"
+    },
+    {
+      "name": "libreoffice",
+      "version": "7.4.2.1",
+      "path": "/LibreOffice/program",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/libreoffice-7.4.2.1.7z"
+    },
+    {
+      "name": "vim",
+      "version": "9.0",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/vim-9.0.7z"
+    },
+    {
+      "name": "dart",
+      "version": "2.18.2",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/dart-2.18.2.7z"
+    },
+    {
+      "name": "racket",
+      "version": "8.6",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/racket-8.6.7z"
+    },
+    {
+      "name": "zig",
+      "version": "0.9.1",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/zig-0.9.1.7z"
+    },
+    {
+      "name": "tidy",
+      "version": "5.8.0",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/tidy-5.8.0.7z"
+    },
+    {
+      "name": "xmllint",
+      "version": "2.9.3",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/xmllint-2.9.3.7z"
+    },
+    {
+      "name": "swig",
+      "version": "4.0.2",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/swig-4.0.2.7z"
+    },
+    {
+      "name": "dmd",
+      "version": "2.100.2",
+      "path": "/windows/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/dmd-2.100.2.7z"
+    },
+    {
+      "name": "nodejs-lts",
+      "version": "16.17.1",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/nodejs-lts-16.17.1.7z"
+    },
+    {
+      "name": "zulu17-jdk",
+      "version": "17.36.17",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/zulu17-jdk-17.36.17.7z"
+    },
+    {
+      "name": "nu",
+      "version": "0.69.1",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/nu-0.69.1.7z"
+    },
+    {
+      "name": "sliksvn",
+      "version": "1.14.2",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/sliksvn-1.14.2.7z"
+    },
+    {
+      "name": "gh",
+      "version": "2.17.0",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/gh-2.17.0.7z"
+    },
+    {
+      "name": "googlechrome",
+      "version": "106.0.5249.103",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/googlechrome-106.0.5249.103.7z"
+    },
+    {
+      "name": "wixtoolset",
+      "version": "3.11.2",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/wixtoolset-3.11.2.7z"
+    },
+    {
+      "name": "uncrustify",
+      "version": "0.75.1",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/uncrustify-0.75.1.7z"
+    },
+    {
+      "name": "geany",
+      "version": "1.38",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/geany-1.38.7z"
+    },
+    {
+      "name": "deno",
+      "version": "1.26.1",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/deno-1.26.1.7z"
+    },
+    {
+      "name": "vscode",
+      "version": "1.72.0",
+      "path": "/bin;.",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/vscode-1.72.0.7z"
+    },
+    {
+      "name": "file",
+      "version": "5.38",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/file-5.38.7z"
+    },
+    {
+      "name": "astyle",
+      "version": "3.1",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/astyle-3.1.7z"
+    },
+    {
+      "name": "7zip",
+      "version": "22.01",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/7zip-22.01.7z"
+    },
+    {
+      "name": "nyagos",
+      "version": "4.4.13_0",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/nyagos-4.4.13_0.7z"
+    },
+    {
+      "name": "jq",
+      "version": "1.6",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/jq-1.6.7z"
+    },
+    {
+      "name": "windows-terminal",
+      "version": "1.15.2524.0",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/windows-terminal-1.15.2524.0.7z"
+    },
+    {
+      "name": "sqlitestudio",
+      "version": "3.3.3",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/sqlitestudio-3.3.3.7z"
+    },
+    {
+      "name": "rapidee",
+      "version": "9.2.937",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/rapidee-9.2.937.7z"
+    },
+    {
+      "name": "notepad3",
+      "version": "5.21.1129.1",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/notepad3-5.21.1129.1.7z"
+    },
+    {
+      "name": "smartgit",
+      "version": "21.2.4",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/smartgit-21.2.4.7z"
+    },
+    {
+      "name": "wget",
+      "version": "1.21.3",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/wget-1.21.3.7z"
+    },
+    {
+      "name": "curl",
+      "version": "7.85.0_5",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/curl-7.85.0_5.7z"
+    },
+    {
+      "name": "qownnotes",
+      "version": "22.10.0",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/qownnotes-22.10.0.7z"
+    },
+    {
+      "name": "sed",
+      "version": "4.8",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/sed-4.8.7z"
+    },
+    {
+      "name": "winpython",
+      "version": "3.10.5",
+      "path": "/Scripts;.",
+      "url": "https://gitlab.com/spider-explorer/spider-software/-/raw/main/.software/winpython/winpython-3.10.5.7z"
+    },
+    {
+      "name": "git",
+      "version": "2.38.0.windows.1",
+      "path": "/cmd",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/git-2.38.0.windows.1.7z"
+    }
+  ]
+}

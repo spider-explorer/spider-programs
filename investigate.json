@@ -1,11 +1,23 @@
 {
   "version": "?",
   "software": {
+    "rider": {
+      "version": "2022.2.3-222.4167.23",
+      "ext": "7z",
+      "path": "/IDE/bin",
+      "url": "https://gitlab.com/spider-explorer/spider-software-2/-/raw/main/rider-2022.2.3-222.4167.23.7z"
+    },
+    "winpython": {
+      "version": "3.10.5",
+      "ext": "7z",
+      "path": "/Scripts;.",
+      "url": "https://gitlab.com/spider-explorer/spider-software/-/raw/main/.software/winpython/winpython-3.10.5.7z"
+    },
     "busybox": {
-      "version": "2022.08.28.20.35.32",
+      "version": "tilde64",
       "ext": "7z",
       "path": ".",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/busybox-2022.08.28.20.35.32.7z"
+      "url": "https://gitlab.com/spider-explorer/spider-software/-/raw/main/.software/busybox/busybox-tilde64.7z"
     },
     "SimpleBrowser": {
       "version": "v2022.07.26.23.20.00",
@@ -43,29 +55,41 @@
       "path": ".",
       "url": "https://gitlab.com/spider-explorer/spider-software/-/raw/main/.software/FolderSizePortable/FolderSizePortable-4.9.5.0.zip"
     },
-    "winpython": {
-      "version": "3.10.5",
-      "ext": "7z",
-      "path": "/Scripts;.",
-      "url": "https://gitlab.com/spider-explorer/spider-software/-/raw/main/.software/winpython/winpython-3.10.5.7z"
-    },
-    "Arora": {
-      "version": "0.10.0",
+    "bluegriffon": {
+      "version": "3.1",
       "ext": "7z",
       "path": ".",
-      "url": "https://gitlab.com/spider-explorer/spider-software/-/raw/main/.software/Arora/Arora-0.10.0.7z"
+      "url": "https://gitlab.com/spider-explorer/spider-software-2/-/raw/main/bluegriffon-3.1.7z"
     },
-    "Falkon": {
-      "version": "3.1.0",
+    "ActiveTcl": {
+      "version": "8.6.12",
+      "ext": "7z",
+      "path": "/bin",
+      "url": "https://gitlab.com/spider-explorer/spider-software-2/-/raw/main/ActiveTcl-8.6.12.7z"
+    },
+    "mscript": {
+      "version": "3.0",
       "ext": "7z",
       "path": ".",
-      "url": "https://gitlab.com/spider-explorer/spider-software/-/raw/main/.software/Falkon/Falkon-3.1.0.7z"
+      "url": "https://gitlab.com/spider-explorer/spider-software-2/-/raw/main/mscript-3.0.7z"
     },
-    "nwjs-sdk": {
-      "version": "v0.66.1",
+    "PowerShell": {
+      "version": "7.2.6-win-x64",
       "ext": "7z",
       "path": ".",
-      "url": "https://gitlab.com/spider-explorer/spider-software/-/raw/main/.software/nwjs-sdk/nwjs-sdk-v0.66.1.7z"
+      "url": "https://gitlab.com/spider-explorer/spider-software-2/-/raw/main/PowerShell-7.2.6-win-x64.zip"
+    },
+    "msys2": {
+      "version": "20220904",
+      "ext": "7z",
+      "path": "/mingw64/bin;/usr/bin;.",
+      "url": "https://gitlab.com/spider-explorer/spider-software-2/-/raw/main/msys2-20220904.7z"
+    },
+    "ClickOnce": {
+      "version": "1.1.1",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://gitlab.com/spider-explorer/spider-software-2/-/raw/main/ClickOnce-1.1.1.zip"
     }
   }
 }

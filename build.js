@@ -35,7 +35,20 @@ async function executePipe(v) {
     return result;
 }
 
+let cwd = Deno.cwd();
+
+await execute(["gh.exe", "auth", "login", "--hostname", "github.com"]); // use GH_TOKEN env variable
+
+let buildDir = cwd + "\\.build";
+Deno.mkdir(buildDir, { recursive: true });
+
+let investigate = JSON.parse(await Deno.readTextFile('investigate.json'))["software"];
+console.log(investigate);
+
 async function scoopAppInfo(key, path) {
+    if (path == null) {
+      return { "name": key, "path": investigate[key]["path"], "version": investigate[key]["version"], "dir": null, "url": investigate[key]["url"], "exists": true };
+    }
     await execute(["cmd.exe", "/c", "scoop", "install", key]);
     await execute(["cmd.exe", "/c", "scoop", "update", key]);
     let st = await executePipe(["scoop-console-x86_64-static.exe", "--latest", key]);
@@ -47,44 +60,39 @@ async function scoopAppInfo(key, path) {
     return { "name": key, "path": path, "version": version, "dir": dir, "url": url, "exists": st.stdout != "404" };
 }
 
-let cwd = Deno.cwd();
-
 await execute(["cmd.exe", "/c", "scoop", "install", "git"]);
 await execute(["cmd.exe", "/c", "scoop", "bucket", "add", "main"]);
 await execute(["cmd.exe", "/c", "scoop", "bucket", "add", "extras"]);
 await execute(["cmd.exe", "/c", "scoop", "bucket", "add", "java"]);
 
-console.log("hello!");
-
-console.log(await executePipe(["echo", "hello漢字©"]));
-
-let investigate = JSON.parse(await Deno.readTextFile('investigate.json'));
-console.log(investigate);
+//console.log(await executePipe(["echo", "hello漢字©"]));
 
 let programs = JSON.parse(await Deno.readTextFile('programs.json'));
-let keys = Object.keys(programs);
-console.log(keys);
 
-let buildDir = cwd + "\\build";
-Deno.mkdir(buildDir, { recursive: true });
+let result = [];
 
-//Deno.exit(777);
-
-for (let key of keys)
+for (var rec of programs)
 {
-    let app = await scoopAppInfo(key, programs[key]);
+	console.log(rec);
+    let app = await scoopAppInfo(rec[0], rec[1]);
     console.log(app);
-    investigate["software"][app.name] = { "version": app.version, "path": app.path, "url": app.url };
+    result.push({ "name": app.name, "version": app.version, "path": app.path, "url": app.url });
     if (!app.exists)
     {
         Deno.chdir(app.dir);
         await execute(["cmd.exe", "/c", "dir"]);
+		if (await fileExists("IDE/bin/idea.properties")) {
+           await execute(["sed", "-i",
+            "-e", "s/^idea[.]config[.]path=/#\\\\0/g",
+            "-e", "s/^idea[.]system[.]path=/#\\\\0/g",
+            "-e", "s/^idea[.]plugins[.]path=/#\\\\0/g",
+            "-e", "s/^idea[.]log[.]path=/#\\\\0/g", "IDE/bin/idea.properties"]);
+		}
         let archive = buildDir + `/${app.name}-${app.version}.7z`;
-        if (!fileExists(archive)) await execute(["7z.exe", "a", "-r", archive, "*", "-x!User Data", "-x!profile", "-x!distribution"]);
+        if (!await fileExists(archive)) await execute(["7z.exe", "a", "-r", archive, "*", "-x!User Data", "-x!profile", "-x!distribution"]);
         console.log("(1)");
         Deno.chdir(cwd);
         //await execute(["gh.exe", "auth", "login", "--with-token", Deno.env.get("GITHUB_ALL")]);
-        await execute(["gh.exe", "auth", "login", "--hostname", "github.com"]); // use GH_TOKEN env variable
         console.log("(2)");
         await execute(["gh.exe", "release", "upload", "64bit", archive]);
         console.log("(3)");
@@ -92,9 +100,4 @@ for (let key of keys)
     }
 }
 
-Deno.writeTextFile("spider-programs.json", JSON.stringify(investigate, null, 2));
-//console.log(Deno.cwd());
-
-//Deno.chdir(Deno.env.get("HOME"));
-
-//console.log(Deno.cwd());
+Deno.writeTextFile("software-array.json", JSON.stringify({ "software": result }, null, 2));
