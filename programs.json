@@ -1,5 +1,6 @@
 [
     ["busybox", null],
+    ["wasmtime", "."],
     ["idea", "/IDE/bin"],
     ["qt-creator", "/bin"],
     ["libreoffice", "/LibreOffice/program"],

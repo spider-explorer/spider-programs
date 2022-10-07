@@ -76,7 +76,9 @@ for (var rec of programs)
 	console.log(rec);
     let app = await scoopAppInfo(rec[0], rec[1]);
     console.log(app);
-    result.push({ "name": app.name, "version": app.version, "path": app.path, "url": app.url });
+    let url_parts = app.url.split(".");
+    let ext = url_parts[url_parts.length - 1];
+    result.push({ "name": app.name, "version": app.version, "path": app.path, "url": app.url, "ext": ext });
     if (!app.exists)
     {
         Deno.chdir(app.dir);
