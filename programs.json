@@ -2,6 +2,7 @@
     ["busybox", null],
     ["cs-script", null],
     ["PowerShell", null],
+    ["dotnet-sdk", "."],
     ["wasmtime", "."],
     ["idea", "/IDE/bin"],
     ["qt-creator", "/bin"],

@@ -22,6 +22,13 @@
       "ext": "zip"
     },
     {
+      "name": "dotnet-sdk",
+      "version": "6.0.401",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/dotnet-sdk-6.0.401.7z",
+      "ext": "7z"
+    },
+    {
       "name": "wasmtime",
       "version": "1.0.1",
       "path": ".",
