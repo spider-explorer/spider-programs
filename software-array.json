@@ -281,6 +281,13 @@
       "ext": "7z"
     },
     {
+      "name": "msys2",
+      "version": "20220904",
+      "path": "/mingw64/bin;/usr/bin;.",
+      "url": "https://gitlab.com/spider-explorer/spider-software-2/-/raw/main/msys2-20220904.7z",
+      "ext": "7z"
+    },
+    {
       "name": "git",
       "version": "2.38.0.windows.1",
       "path": "/cmd",

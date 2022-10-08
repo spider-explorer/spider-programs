@@ -1,6 +1,12 @@
 {
   "version": "?",
   "software": {
+    "msys2": {
+      "version": "20220904",
+      "ext": "7z",
+      "path": "/mingw64/bin;/usr/bin;.",
+      "url": "https://github.com/spider-explorer/spider-programs/raw/main/msys2-20220904.7z"
+    },
     "rider": {
       "version": "2022.2.3-222.4167.23",
       "ext": "7z",

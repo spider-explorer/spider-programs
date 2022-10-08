@@ -39,5 +39,6 @@
     ["qownnotes", "."],
     ["sed", "."],
     ["winpython", null],
+    ["msys2", null],
     ["git", "/cmd"]
 ]
