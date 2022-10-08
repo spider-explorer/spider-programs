@@ -13,6 +13,12 @@
       "path": "/Scripts;.",
       "url": "https://gitlab.com/spider-explorer/spider-software/-/raw/main/.software/winpython/winpython-3.10.5.7z"
     },
+    "PowerShell": {
+      "version": "7.2.6-win-x64",
+      "ext": "7z",
+      "path": ".",
+      "url": "https://gitlab.com/spider-explorer/spider-software-2/-/raw/main/PowerShell-7.2.6-win-x64.zip"
+    },
     "busybox": {
       "version": "tilde64",
       "ext": "7z",

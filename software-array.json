@@ -8,6 +8,13 @@
       "ext": "7z"
     },
     {
+      "name": "PowerShell",
+      "version": "7.2.6-win-x64",
+      "path": ".",
+      "url": "https://gitlab.com/spider-explorer/spider-software-2/-/raw/main/PowerShell-7.2.6-win-x64.zip",
+      "ext": "zip"
+    },
+    {
       "name": "wasmtime",
       "version": "1.0.1",
       "path": ".",

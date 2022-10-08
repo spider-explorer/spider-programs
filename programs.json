@@ -1,5 +1,6 @@
 [
     ["busybox", null],
+    ["PowerShell", null],
     ["wasmtime", "."],
     ["idea", "/IDE/bin"],
     ["qt-creator", "/bin"],
