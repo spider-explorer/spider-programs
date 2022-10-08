@@ -8,6 +8,13 @@
       "ext": "7z"
     },
     {
+      "name": "rider",
+      "version": "2022.2.3-222.4167.23",
+      "path": "/IDE/bin",
+      "url": "https://gitlab.com/spider-explorer/spider-software-2/-/raw/main/rider-2022.2.3-222.4167.23.7z",
+      "ext": "7z"
+    },
+    {
       "name": "cs-script",
       "version": "win.v4.4.8.0",
       "path": ".",

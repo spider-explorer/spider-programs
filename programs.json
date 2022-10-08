@@ -1,5 +1,6 @@
 [
     ["busybox", null],
+    ["rider", null],
     ["cs-script", null],
     ["PowerShell", null],
     ["dotnet-sdk", "."],
