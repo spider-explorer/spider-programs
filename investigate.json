@@ -1,6 +1,12 @@
 {
   "version": "?",
   "software": {
+    "cs-script": {
+      "version": "win.v4.4.8.0",
+      "ext": "7z",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/raw/main/cs-script-win.v4.4.8.0.7z"
+    },
     "msys2": {
       "version": "20220904",
       "ext": "7z",
