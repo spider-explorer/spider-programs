@@ -274,17 +274,17 @@
       "ext": "7z"
     },
     {
-      "name": "winpython",
-      "version": "3.10.5",
-      "path": "/Scripts;.",
-      "url": "https://gitlab.com/spider-explorer/spider-software/-/raw/main/.software/winpython/winpython-3.10.5.7z",
-      "ext": "7z"
-    },
-    {
       "name": "msys2",
       "version": "20220904",
       "path": "/mingw64/bin;/usr/bin;.",
       "url": "https://gitlab.com/spider-explorer/spider-software-2/-/raw/main/msys2-20220904.7z",
+      "ext": "7z"
+    },
+    {
+      "name": "winpython",
+      "version": "3.10.5",
+      "path": "/Scripts;.",
+      "url": "https://gitlab.com/spider-explorer/spider-software/-/raw/main/.software/winpython/winpython-3.10.5.7z",
       "ext": "7z"
     },
     {
