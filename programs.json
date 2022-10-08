@@ -1,5 +1,6 @@
 [
     ["busybox", null],
+    ["cs-script", null],
     ["PowerShell", null],
     ["wasmtime", "."],
     ["idea", "/IDE/bin"],
