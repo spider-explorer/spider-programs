@@ -42,12 +42,12 @@ await execute(["gh.exe", "auth", "login", "--hostname", "github.com"]);
 let buildDir = cwd + "\\.build";
 Deno.mkdir(buildDir, { recursive: true });
 
-let investigate = JSON.parse(await Deno.readTextFile('investigate.json'))["software"];
-console.log(investigate);
+let extra = JSON.parse(await Deno.readTextFile('extra.json'))["software"];
+console.log(extra);
 
 async function scoopAppInfo(key, path) {
     if (path == null) {
-      return { "name": key, "path": investigate[key]["path"], "version": investigate[key]["version"], "dir": null, "url": investigate[key]["url"], "exists": true };
+      return { "name": key, "path": extra[key]["path"], "version": extra[key]["version"], "dir": null, "url": extra[key]["url"], "exists": true };
     }
     await execute(["cmd.exe", "/c", "scoop", "install", key]);
     await execute(["cmd.exe", "/c", "scoop", "update", key]);

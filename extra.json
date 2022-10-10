@@ -1,0 +1,46 @@
+{
+  "software": {
+    "_cs-script": {
+      "version": "win.v4.4.8.0",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_cs-script-win.v4.4.8.0.zip"
+    },
+    "_msys2": {
+      "version": "20220904",
+      "ext": "zip",
+      "path": "/mingw64/bin;/usr/bin;.",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_msys2-20220904.zip"
+    },
+    "_rider": {
+      "version": "2022.2.3-222.4167.23",
+      "ext": "zip",
+      "path": "/IDE/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_rider-2022.2.3-222.4167.23.zip"
+    },
+    "_winpython": {
+      "version": "3.10.5",
+      "ext": "zip",
+      "path": "/Scripts;.",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_winpython-3.10.5.zip"
+    },
+    "_PowerShell": {
+      "version": "7.2.6-win-x64",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_PowerShell-7.2.6-win-x64.zip"
+    },
+    "_busybox": {
+      "version": "tilde64",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_busybox-tilde64.zip"
+    },
+    "_bluegriffon": {
+      "version": "3.1",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_bluegriffon-3.1.zip"
+    }
+  }
+}

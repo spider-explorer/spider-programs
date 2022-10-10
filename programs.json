@@ -1,8 +1,9 @@
 [
-    ["busybox", null],
-    ["rider", null],
-    ["cs-script", null],
-    ["PowerShell", null],
+    ["_busybox", null],
+    ["_bluegriffon", null],
+    ["_rider", null],
+    ["_cs-script", null],
+    ["_PowerShell", null],
     ["dotnet-sdk", "."],
     ["wasmtime", "."],
     ["idea", "/IDE/bin"],
@@ -41,7 +42,7 @@
     ["curl", "/bin"],
     ["qownnotes", "."],
     ["sed", "."],
-    ["msys2", null],
-    ["winpython", null],
+    ["_msys2", null],
+    ["_winpython", null],
     ["git", "/cmd"]
 ]
