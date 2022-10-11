@@ -1,5 +1,6 @@
 using System;
 using System.Data.SQLite;
+using JavaCommons;
 
 await $"echo (1)";
 var _conn = new SQLiteConnection();
@@ -42,3 +43,5 @@ await $"echo (5)";
     _conn.Close();
 }
 await $"echo (6)";
+var len = TwitterUtil.TweetTextLength("aa漢字");
+await $"echo {len}";
