@@ -1,13 +1,16 @@
 using System;
 using System.IO;
 using Newtonsoft.Json.Linq;
-using static SimpleExec.Command;
+//using static SimpleExec.Command;
 using System.Xml.Linq;
 //using JavaCommons;
 using static JavaCommons.Util;
+using Cysharp.Diagnostics;
 
-Print("Version: {0}", Environment.Version.ToString());
-Run("ls.exe", new[] { "-l", "-t", "-r" });
+Print($"Version: {Environment.Version.ToString()}");
+//Run("ls.exe", new[] { "-l", "-t", "-r" });
+var version = await ProcessX.StartAsync("dotnet --version").FirstAsync();
+Print(version);
 var json = File.ReadAllText("extra.json");
 Print(json);
 var d = ((dynamic)JObject.Parse(json)).software;
