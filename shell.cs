@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using static JCS.jcs;
 
 var cwd = await "pwd";
@@ -14,3 +16,9 @@ await $"cd {cwd}";
 await "pwd";
 print("(5)");
 print("print(ハロー©)!");
+var input = await "ls";
+await $"echo {input}";
+var list = lines_to_list(input);
+print(list);
+list.Remove("upload.cmd");
+print(list);
