@@ -26,8 +26,11 @@
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
-      <PackageReference Include="JavaCommons" Version="*" />
-      <PackageReference Include="ProcessX" Version="1.5.4" />
+    <PackageReference Include="JavaCommons" Version="2022.1011.1717.51" />
+    <PackageReference Include="ProcessX" Version="1.5.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Zx" />
   </ItemGroup>
 
 </Project>

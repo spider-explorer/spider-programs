@@ -42,6 +42,7 @@
     ["curl", "/bin"],
     ["qownnotes", "."],
     ["sed", "."],
+    ["_msys2", null],
     ["_winpython", null],
     ["git", "/cmd"]
 ]

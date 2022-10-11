@@ -7,6 +7,7 @@ using System.Xml.Linq;
 using static JavaCommons.Util;
 using Cysharp.Diagnostics;
 
+/*
 Print($"Version: {Environment.Version.ToString()}");
 //Run("ls.exe", new[] { "-l", "-t", "-r" });
 var version = await ProcessX.StartAsync("dotnet --version").FirstAsync();
@@ -34,3 +35,4 @@ string xml = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" + root.ToString(Save
 Print(xml);
 //File.WriteAllText("extra2.xml", xml);
 Print(ToJson(root, true));
+*/
