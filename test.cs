@@ -1,31 +1,33 @@
 using System;
+using System.IO;
 using Newtonsoft.Json.Linq;
 using static SimpleExec.Command;
 using System.Xml.Linq;
-using JavaCommons;
+//using JavaCommons;
+using static JavaCommons.Util;
 
-Util.Print("Version: {0}", Environment.Version.ToString());
+Print("Version: {0}", Environment.Version.ToString());
 Run("ls.exe", new[] { "-l", "-t", "-r" });
 var json = File.ReadAllText("extra.json");
-Util.Print(json);
+Print(json);
 var d = ((dynamic)JObject.Parse(json)).software;
 var o = (JObject)d;
 XElement root = new XElement("root");
 foreach(var x in o)
 {
-    Util.Print(x.Key);
-    Util.Print(x.Value);
+    Print(x.Key);
+    Print(x.Value);
     var e = new XElement("item", new XAttribute("name", (string)x.Key),
      new XElement("version", (string)x.Value["version"]),
      new XElement("ext", (string)x.Value["ext"]),
      new XElement("path", (string)x.Value["path"]),
      new XElement("url", (string)x.Value["url"])
      );
-    Util.Print(e);
+    Print(e);
     root.Add(e);
 }
-Util.Print(root);
+Print(root);
 string xml = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" + root.ToString(SaveOptions.None);
-Util.Print(xml);
-File.WriteAllText("extra2.xml", xml);
-Util.Print(Util.ToJson(root, true));
+Print(xml);
+//File.WriteAllText("extra2.xml", xml);
+Print(ToJson(root, true));
