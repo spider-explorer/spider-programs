@@ -1,10 +1,10 @@
-#! "net6.0"
 #r "nuget:Newtonsoft.Json,13.0.0.0"
 #r "nuget:SimpleExec,11.0.0"
 #r "nuget:JavaCommons,2022.1012.147.9-beta"
 #r "nuget:ProcessX,1.5.4"
 
 //#! "netcoreapp1.1"
+//#! "net6.0"
 using System;
 using Newtonsoft.Json.Linq;
 using static SimpleExec.Command;
@@ -40,4 +40,4 @@ foreach(var x in o)
 Console.WriteLine(root);
 string xml = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" + root.ToString(SaveOptions.None);
 Console.WriteLine(xml);
-File.WriteAllText("extra.xml", xml);
+//File.WriteAllText("extra.xml", xml);
