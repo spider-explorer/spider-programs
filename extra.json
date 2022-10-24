@@ -41,6 +41,12 @@
       "ext": "zip",
       "path": ".",
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_bluegriffon-3.1.zip"
+    },
+    "_obsidian": {
+      "version": "v1.0.0",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_obsidian-v1.0.0.zip"
     }
   }
 }
