@@ -1,5 +1,4 @@
 [
-    ["msys2", "."],
     ["_busybox", null],
     ["_bluegriffon", null],
     ["_rider", null],
@@ -45,5 +44,6 @@
     ["_obsidian", null],
     ["sed", "."],
     ["_winpython", null],
+    ["msys2", ".;/usr/bin"],
     ["git", "/cmd"]
 ]
