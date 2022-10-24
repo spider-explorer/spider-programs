@@ -41,9 +41,9 @@
     ["wget", "."],
     ["curl", "/bin"],
     ["qownnotes", "."],
-    ["_obsidian", null],
     ["sed", "."],
+    ["_obsidian", null],
+    ["_msys2", null],
     ["_winpython", null],
-    ["msys2", ".;/usr/bin"],
     ["git", "/cmd"]
 ]
