@@ -44,6 +44,6 @@
     ["_obsidian", null],
     ["sed", "."],
     ["_winpython", null],
-    ["msys2", ".;/usr/bin"],
+    ["msys2", "."],
     ["git", "/cmd"]
 ]
