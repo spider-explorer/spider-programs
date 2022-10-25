@@ -1,3 +1,5 @@
+import * as JSONC from "https://deno.land/std/encoding/jsonc.ts";
+
 async function fileExists(filepath) {
     try {
         const file = await Deno.stat(filepath);   
@@ -42,7 +44,7 @@ await execute(["gh.exe", "auth", "login", "--hostname", "github.com"]);
 let buildDir = cwd + "\\.build";
 Deno.mkdir(buildDir, { recursive: true });
 
-let extra = JSON.parse(await Deno.readTextFile('extra.json'))["software"];
+let extra = JSONC.parse(await Deno.readTextFile('extra.json'))["software"];
 console.log(extra);
 
 async function scoopAppInfo(key, path) {
@@ -65,7 +67,7 @@ await execute(["cmd.exe", "/c", "scoop", "bucket", "add", "main"]);
 await execute(["cmd.exe", "/c", "scoop", "bucket", "add", "extras"]);
 await execute(["cmd.exe", "/c", "scoop", "bucket", "add", "java"]);
 
-let programs = JSON.parse(await Deno.readTextFile('programs.json'));
+let programs = JSONC.parse(await Deno.readTextFile('programs.json'));
 
 let result = [];
 
