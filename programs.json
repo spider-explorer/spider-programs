@@ -5,7 +5,6 @@
     ["_cs-script", null],
     ["_PowerShell", null],
     ["dotnet-sdk", "."],
-    ["atom", "/AtomPortable"],
     ["wasmtime", "."],
     ["idea", "/IDE/bin"],
     ["qt-creator", "/bin"],
