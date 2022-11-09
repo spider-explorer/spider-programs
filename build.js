@@ -91,7 +91,7 @@ for (var rec of programs)
             "-e", "s/^idea[.]log[.]path=/#\\\\0/g", "IDE/bin/idea.properties"]);
 		}
         let archive = buildDir + `/${app.name}-${app.version}.zip`;
-        if (!await fileExists(archive)) await execute(["7z.exe", "a", "-r", "-tzip", "-mcu=on", archive, "*", "-x!User Data", "-x!profile", "-x!distribution"]);
+        if (!await fileExists(archive)) await execute(["7z.exe", "a", "-r", "-tzip", "-mcu=on", archive, "*", "-x!User Data", "-x!profile", "-x!data", "-x!distribution"]);
         console.log("(1)");
         Deno.chdir(cwd);
         console.log("(2)");

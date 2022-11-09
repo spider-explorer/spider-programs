@@ -4,6 +4,7 @@
     ["_rider", null],
     ["_cs-script", null],
     ["_PowerShell", null],
+    ["firefox", "."],
     ["dotnet-sdk", "."],
     ["wasmtime", "."],
     //["idea", "/IDE/bin"],
