@@ -14,7 +14,7 @@
     //["libreoffice", "/LibreOffice/program"],
     ["vim", "."],
     ["dart", "/bin"],
-    //["racket", "."],
+    ["racket", "."],
     ["zig", "."],
     ["tidy", "."],
     ["xmllint", "/bin"],

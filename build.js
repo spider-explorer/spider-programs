@@ -1,3 +1,4 @@
+#! deno run --allow-all --unstable
 import * as JSONC from "https://deno.land/std/encoding/jsonc.ts";
 
 async function fileExists(filepath) {
