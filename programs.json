@@ -5,6 +5,8 @@
     ["_rider", null],
     ["_cs-script", null],
     ["_PowerShell", null],
+    ["neko", "."],
+    ["haxe", "."],
     ["emacs", "/bin"],
     ["firefox", "."],
     //["dotnet-sdk", "."],
