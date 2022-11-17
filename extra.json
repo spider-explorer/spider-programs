@@ -1,5 +1,11 @@
 {
   "software": {
+    "_FlashDevelop": {
+      "version": "5.3.3",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_FlashDevelop-5.3.3.zip"
+    },
     "dotnet-sdk": {
       "version": "7.0.100-win-x64",
       "ext": "zip",
