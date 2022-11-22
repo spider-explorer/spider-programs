@@ -7,7 +7,7 @@
     //["_FlashDevelop", null],
     //["neko", "."],
     //["haxe", "."],
-    ["make", "."],
+    ["make", "/bin"],
     ["emacs", "/bin"],
     ["firefox", "."],
     //["dotnet-sdk", "."],
