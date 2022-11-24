@@ -21,7 +21,7 @@
     "_msys2": {
       "version": "20220904",
       "ext": "zip",
-      "path": "/mingw64/bin;.",
+      "path": "/mingw64/bin;/usr/bin;.",
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_msys2-20220904.zip"
     },
     "_rider": {
