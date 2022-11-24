@@ -1,4 +1,4 @@
-{
+_bu{
   "software": {
     "_FlashDevelop": {
       "version": "5.3.3",
@@ -43,10 +43,10 @@
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_PowerShell-7.2.6-win-x64.zip"
     },
     "_busybox": {
-      "version": "tilde64",
+      "version": "bbox.2022.11.25.04.24.38",
       "ext": "zip",
       "path": ".",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_busybox-tilde64.zip"
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_busybox-bbox.2022.11.25.04.24.38.zip"
     },
     "_bluegriffon": {
       "version": "3.1",
