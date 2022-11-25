@@ -1,5 +1,11 @@
 {
   "software": {
+    "_FolderSizePortable": {
+      "version": "4.9.5.0",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_FolderSizePortable-4.9.5.0.zip"
+    },
     "_FlashDevelop": {
       "version": "5.3.3",
       "ext": "zip",
