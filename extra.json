@@ -18,6 +18,12 @@
       "path": ".",
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/dotnet-sdk-7.0.100-win-x64.zip"
     },
+    "_racket": {
+      "version": "8.6",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_racket-8.6.zip"
+    },
     "_cs-script": {
       "version": "win.v4.4.8.0",
       "ext": "zip",
