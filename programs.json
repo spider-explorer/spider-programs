@@ -10,6 +10,7 @@
     //["haxe", "."],
     ["make", "/bin"],
     ["emacs", "/bin"],
+    ["dependencies", "."],
     ["firefox", "."],
     //["dotnet-sdk", "."],
     ["dotnet-sdk", null],
