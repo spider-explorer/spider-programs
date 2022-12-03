@@ -40,7 +40,7 @@ async function executePipe(v) {
 
 let cwd = Deno.cwd();
 
-await execute(["gh.exe", "auth", "login", "--hostname", "github.com"]);
+await execute(["gh", "auth", "login", "--hostname", "github.com", "--git-protocol", "https", "--web"]);
 
 let buildDir = cwd + "\\.build";
 Deno.mkdir(buildDir, { recursive: true });
