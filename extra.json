@@ -1,5 +1,11 @@
 {
   "software": {
+    "_gauche": {
+      "version": "0.9.12",
+      "ext": "zip",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_gauche-0.9.12.zip"
+    },
     "_FolderSizePortable": {
       "version": "4.9.5.0",
       "ext": "zip",
