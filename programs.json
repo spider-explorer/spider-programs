@@ -9,6 +9,7 @@
     //["neko", "."],
     //["haxe", "."],
     ["_qemu", null],
+    ["_qtemu", null],
     ["_gauche", null],
     ["sbcl", "."],
     ["sudo", "."],
