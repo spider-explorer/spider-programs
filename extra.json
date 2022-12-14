@@ -1,5 +1,11 @@
 {
   "software": {
+    "_qemu": {
+      "version": "20221208",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_qemu-20221208.zip"
+    },
     "_gauche": {
       "version": "0.9.12",
       "ext": "zip",
