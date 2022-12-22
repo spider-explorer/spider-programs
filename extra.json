@@ -1,5 +1,11 @@
 {
   "software": {
+    "_emacs": {
+      "version": "29.0.50-snapshot-2022-10-13-nodeps",
+      "ext": "zip",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_emacs-29.0.50-snapshot-2022-10-13-nodeps.zip"
+    },
     "_qtemu": {
       "version": "2022.12.15",
       "ext": "zip",
