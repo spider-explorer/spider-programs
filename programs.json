@@ -15,8 +15,6 @@
     ["sudo", "."],
     ["make", "/bin"],
     ["neovim", "/bin"],
-    //["emacs", "/bin"],
-    ["_emacs", null],
     ["dependencies", "."],
     ["firefox", "."],
     //["dotnet-sdk", "."],
@@ -64,5 +62,7 @@
     ["_obsidian", null],
     ["_msys2", null],
     ["_winpython", null],
+    //["emacs", "/bin"],
+    ["_emacs", null],
     ["git", "/cmd"]
 ]
