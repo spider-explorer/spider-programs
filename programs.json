@@ -62,7 +62,7 @@
     ["_obsidian", null],
     ["_msys2", null],
     ["_winpython", null],
-    //["emacs", "/bin"],
+    ["emacs", "/bin"],
     ["_emacs", null],
     ["git", "/cmd"]
 ]
