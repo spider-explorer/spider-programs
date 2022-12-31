@@ -63,6 +63,6 @@
     ["_msys2", null],
     ["_winpython", null],
     ["emacs", "/bin"],
-    ["_emacs", null],
+    //["_emacs", null],
     ["git", "/cmd"]
 ]
