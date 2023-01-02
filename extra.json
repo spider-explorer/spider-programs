@@ -1,10 +1,10 @@
 {
   "software": {
-    "emacs-25": {
-      "version": "x86_64-deps",
+    "emacs-25.2": {
+      "version": "x86_64-with-deps",
       "ext": "zip",
       "path": "/bin",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/emacs-25-x86_64-deps.zip"
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/emacs-25.2-x86_64-with-deps.zip"
     },
     "emacs-27.1": {
       "version": "x86_64-no-deps",

@@ -65,6 +65,6 @@
     //["emacs", "/bin"],
     //["_emacs", null],
     //["emacs-27.1", null],
-    ["emacs-25", null],
+    ["emacs-25.2", null],
     ["git", "/cmd"]
 ]
