@@ -17,8 +17,8 @@
     ["neovim", "/bin"],
     ["dependencies", "."],
     ["firefox", "."],
-    //["dotnet-sdk", "."],
-    ["dotnet-sdk", null],
+    ["dotnet-sdk", "."],
+    //["dotnet-sdk", null],
     ["wasmtime", "."],
     //["idea", "/IDE/bin"],
     ["qt-creator", "/bin"],
@@ -67,7 +67,7 @@
     ["emacs-27.1", null],
     //["emacs-25.2", null],
     //["emacs-26.1", null],
-    ["erlang", "/bin"],
-    ["elixir", "/bin"],
+    //["erlang", "/bin"],
+    //["elixir", "/bin"],
     ["git", "/cmd"]
 ]
