@@ -11,6 +11,7 @@
     ["_qemu", null],
     ["_qtemu", null],
     ["_gauche", null],
+    ["vivaldi", "/Application"],
     ["sbcl", "."],
     ["sudo", "."],
     ["make", "/bin"],
