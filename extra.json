@@ -85,10 +85,10 @@
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_cs-script-win.v4.4.8.0.zip"
     },
     "_msys2": {
-      "version": "20221028",
+      "version": "20230127",
       "ext": "zip",
       "path": "/mingw64/bin;/usr/bin;.",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_msys2-20221028.zip"
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_msys2-20230127.zip"
     },
     "_rider": {
       "version": "2022.2.3-222.4167.23",

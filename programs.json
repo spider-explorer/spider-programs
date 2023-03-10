@@ -12,7 +12,7 @@
     //["_qtemu", null],
     ["_gauche", null],
     //["vivaldi", "/Application"],
-    ["sbcl", "."],
+    //["sbcl", "."],
     ["sudo", "."],
     ["make", "/bin"],
     ["neovim", "/bin"],
