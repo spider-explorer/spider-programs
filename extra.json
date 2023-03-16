@@ -97,11 +97,19 @@
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_msys2-20230127.zip"
     },
     "_rider": {
+      "version": "2022.3.2",
+      "ext": "zip",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_rider-2022.3.2.zip"
+    },
+    /*
+    "_rider": {
       "version": "2022.2.3-222.4167.23",
       "ext": "zip",
       "path": "/IDE/bin",
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_rider-2022.2.3-222.4167.23.zip"
     },
+    */
     "_winpython": {
       "version": "3.10.5",
       "ext": "zip",

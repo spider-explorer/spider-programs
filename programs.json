@@ -3,7 +3,7 @@
     ["_busybox", null],
     ["_elvish", null],
     ["_bluegriffon", null],
-    //["_rider", null],
+    ["_rider", null],
     ["_cs-script", null],
     ["_PowerShell", null],
     //["_FlashDevelop", null],
