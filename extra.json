@@ -19,7 +19,7 @@
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/emacs-27.1-x86_64-no-deps.zip"
     },
     "_dotPeek": {
-      "version": "2022.3.2.zip",
+      "version": "2022.3.2",
       "ext": "zip",
       "path": ".",
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_dotPeek-2022.3.2.zip"
