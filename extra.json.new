@@ -115,7 +115,7 @@
     "_msys2": {
       "version": "20230127",
       "ext": "zip",
-      "path": "/mingw64/bin;/usr/bin;.",
+      "path": ".",
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_msys2-20230127.zip",
       "script": null
     },

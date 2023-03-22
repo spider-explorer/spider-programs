@@ -137,7 +137,10 @@
     <name>_msys2</name>
     <version>20230127</version>
     <ext>zip</ext>
+    <!--
     <path>/mingw64/bin;/usr/bin;.</path>
+    -->
+    <path>.</path>
     <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_msys2-20230127.zip</url>
     <script></script>
   </item>
