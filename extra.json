@@ -79,10 +79,10 @@
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_FlashDevelop-5.3.3.zip"
     },
     "_dotnet-sdk": {
-      "version": "7.0.201-win-x64",
+      "version": "6.0.407-win-x64",
       "ext": "zip",
       "path": ".",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_dotnet-sdk-7.0.201-win-x64.zip"
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_dotnet-sdk-6.0.407-win-x64.zip"
     },
     "_racket": {
       "version": "8.6",
