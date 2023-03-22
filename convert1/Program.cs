@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Xml.Linq;
+using System.Xml.XPath;
 
 public static class Program
 {
@@ -21,11 +22,11 @@ public static class Program
             var sum = engine.Invoke("add", 11, 22);
             Print(sum);
             Print(Environment.CurrentDirectory);
-            RunCommand("gh", "auth", "login", "--hostname", "github.com", "--git-protocol", "https", "--web");
+            Environment.CurrentDirectory = @"C:\Users\Public\root\.repo\base2\work\spider-programs";
+            //RunCommand("gh", "auth", "login", "--hostname", "github.com", "--git-protocol", "https", "--web");
             string buildDir = Environment.CurrentDirectory + "\\.build";
             Log(buildDir);
             Dirs.Prepare(buildDir);
-
 
             XElement root = new XElement("root");
 
@@ -46,8 +47,11 @@ public static class Program
 
             string output = RunWithOutput("ls.exe", "-ltr");
             Console.WriteLine($"[{output}]");
-            output = RunWithOutput("lsxxx.exe", "-ltr");
-            Console.WriteLine($"[{output}]");
+
+            var doc2 = ReadTextFileAsXml("cdata.xml");
+            Log(doc2);
+            Print(doc2.XPathSelectElement("//food/detail"));
+            Print("["+doc2.XPathSelectElement("//food/detail").Value+"]");
         }
         catch (Exception e)
         {
@@ -64,6 +68,17 @@ public static class Program
         }
 
         return FromJson(fileContent);
+    }
+
+    private static XDocument ReadTextFileAsXml(string filePath)
+    {
+        string fileContent;
+        using (StreamReader reader = new StreamReader(filePath))
+        {
+            fileContent = reader.ReadToEnd();
+        }
+
+        return FromXml(fileContent);
     }
 
     private static void RunCommand(string cmd, params string[] args)

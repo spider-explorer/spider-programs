@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<foods>
+  <food>
+    <name>バナナ</name>
+    <detail>
+    	<![CDATA[
+    	取り扱っているのは<アメリカ産><ブラジル産>
+    	<メキシコ産>の3つの原産国のものです。
+    	]]>
+    </detail>
+  </food>
+</foods>
