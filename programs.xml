@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
+  <!--
   <item>
     <name>_pleiades</name>
     <path>[extra]</path>
     <script></script>
   </item>
+  -->
   <item>
     <name>_ideaIC</name>
     <path>[extra]</path>
