@@ -113,7 +113,7 @@
     <script>
       <![CDATA[
         Util.Print(dir, "dir");
-        vars.DOTNET_ROOT=dir
+        vars.DOTNET_ROOT=dir;
       ]]>
     </script>
   </item>

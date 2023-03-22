@@ -113,7 +113,12 @@
   <item>
     <name>zulu17-jdk</name>
     <path>/bin</path>
-    <script></script>
+    <script>
+      <![CDATA[
+        Util.Print(dir, "dir");
+        vars.JAVA_HOME=dir;
+      ]]>
+    </script>
   </item>
   <item>
     <name>gradle</name>

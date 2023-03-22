@@ -1,0 +1,165 @@
+{
+  "software": {
+    "emacs-26.1": {
+      "version": "x86_64",
+      "ext": "zip",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/emacs-26.1-x86_64.zip",
+      "script": null
+    },
+    "emacs-25.2": {
+      "version": "x86_64-with-deps",
+      "ext": "zip",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/emacs-25.2-x86_64-with-deps.zip",
+      "script": null
+    },
+    "emacs-27.1": {
+      "version": "x86_64-no-deps",
+      "ext": "zip",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/emacs-27.1-x86_64-no-deps.zip",
+      "script": null
+    },
+    "_dotPeek": {
+      "version": "2022.3.2",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_dotPeek-2022.3.2.zip",
+      "script": null
+    },
+    "_elvish": {
+      "version": "v0.19.2",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_elvish-v0.19.2.zip",
+      "script": null
+    },
+    "_VSCode": {
+      "version": "win32-x64-1.75.1",
+      "ext": "zip",
+      "path": "/bin;.",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_VSCode-win32-x64-1.75.1.zip",
+      "script": null
+    },
+    "_node": {
+      "version": "v19.7.0-win-x64",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_node-v19.7.0-win-x64.zip",
+      "script": null
+    },
+    "_emacs": {
+      "version": "29.0.50-snapshot-2022-10-13-nodeps",
+      "ext": "zip",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_emacs-29.0.50-snapshot-2022-10-13-nodeps.zip",
+      "script": null
+    },
+    "_qtemu": {
+      "version": "2022.12.15",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_qtemu-2022.12.15.zip",
+      "script": null
+    },
+    "_qemu": {
+      "version": "20221208",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_qemu-20221208.zip",
+      "script": null
+    },
+    "_gauche": {
+      "version": "0.9.12",
+      "ext": "zip",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_gauche-0.9.12.zip",
+      "script": null
+    },
+    "_FolderSizePortable": {
+      "version": "4.9.5.0",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_FolderSizePortable-4.9.5.0.zip",
+      "script": null
+    },
+    "_FlashDevelop": {
+      "version": "5.3.3",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_FlashDevelop-5.3.3.zip",
+      "script": null
+    },
+    "_dotnet-sdk": {
+      "version": "7.0.201-win-x64",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_dotnet-sdk-7.0.201-win-x64.zip",
+      "script": "        Util.Print(dir, \"dir\");\n        vars.DOTNET_ROOT=dir;"
+    },
+    "_racket": {
+      "version": "8.6",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_racket-8.6.zip",
+      "script": null
+    },
+    "_cs-script": {
+      "version": "win.v4.4.8.0",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_cs-script-win.v4.4.8.0.zip",
+      "script": null
+    },
+    "_msys2": {
+      "version": "20230127",
+      "ext": "zip",
+      "path": "/mingw64/bin;/usr/bin;.",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_msys2-20230127.zip",
+      "script": null
+    },
+    "_rider": {
+      "version": "2022.3.2",
+      "ext": "zip",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_rider-2022.3.2.zip",
+      "script": null
+    },
+    "_winpython": {
+      "version": "3.10.5",
+      "ext": "zip",
+      "path": "/Scripts;.",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_winpython-3.10.5.zip",
+      "script": null
+    },
+    "_PowerShell": {
+      "version": "7.2.6-win-x64",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_PowerShell-7.2.6-win-x64.zip",
+      "script": null
+    },
+    "_busybox": {
+      "version": "bbox.2023.03.01.11.38.44",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_busybox-bbox.2023.03.01.11.38.44.zip",
+      "script": null
+    },
+    "_bluegriffon": {
+      "version": "3.1",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_bluegriffon-3.1.zip",
+      "script": null
+    },
+    "_obsidian": {
+      "version": "v1.0.0",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_obsidian-v1.0.0.zip",
+      "script": null
+    }
+  }
+}

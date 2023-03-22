@@ -1,0 +1,252 @@
+[
+  {
+    "name": "_FolderSizePortable",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "_busybox",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "_elvish",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "_bluegriffon",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "_rider",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "_cs-script",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "_PowerShell",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "_dotPeek",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "_gauche",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "sudo",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "make",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "neovim",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "dependencies",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "_dotnet-sdk",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "wasmtime",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "vim",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "dart",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "_racket",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "zig",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "tidy",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "xmllint",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "_node",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "zulu17-jdk",
+    "path": "/bin",
+    "script": "        Util.Print(dir, \"dir\");\n        vars.JAVA_HOME=dir;"
+  },
+  {
+    "name": "gradle",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "nu",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "sliksvn",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "gh",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "wixtoolset",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "uncrustify",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "geany",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "deno",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "_VSCode",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "file",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "astyle",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "7zip",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "nyagos",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "jq",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "windows-terminal",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "sqlitestudio",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "rapidee",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "notepad3",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "wget",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "curl",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "qownnotes",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "sed",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "_obsidian",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "_msys2",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "_winpython",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "emacs",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "git",
+    "path": "/cmd",
+    "script": null
+  }
+]
