@@ -45,22 +45,22 @@ await execute(["gh", "auth", "login", "--hostname", "github.com", "--git-protoco
 let buildDir = cwd + "\\.build";
 Deno.mkdir(buildDir, { recursive: true });
 
-let extra = JSONC.parse(await Deno.readTextFile('extra.json.new'))["software"];
+let extra = JSONC.parse(await Deno.readTextFile('extra.json'))["software"];
 console.log(extra);
 
-async function scoopAppInfo(rec /*key, path*/) {
-    if (rec.path == null) {
-      return { "name": rec.name, "path": extra[rec.name]["path"], "version": extra[rec.name]["version"], "dir": null, "url": extra[rec.name]["url"], "script": extra[rec.name]["script"], "exists": true };
+async function scoopAppInfo(key, path) {
+    if (path == null) {
+      return { "name": key, "path": extra[key]["path"], "version": extra[key]["version"], "dir": null, "url": extra[key]["url"], "exists": true };
     }
-    await execute(["cmd.exe", "/c", "scoop", "install", rec.name]);
-    await execute(["cmd.exe", "/c", "scoop", "update", rec.name]);
-    let st = await executePipe(["scoop-console-x86_64-static.exe", "--latest", rec.name]);
+    await execute(["cmd.exe", "/c", "scoop", "install", key]);
+    await execute(["cmd.exe", "/c", "scoop", "update", key]);
+    let st = await executePipe(["scoop-console-x86_64-static.exe", "--latest", key]);
     let list = st.stdout.trim().split(" ");
     let version = list[0];
     let dir = list[1];
-    let url = `https://github.com/spider-explorer/spider-programs/releases/download/64bit/${rec.name}-${version}.zip`;
+    let url = `https://github.com/spider-explorer/spider-programs/releases/download/64bit/${key}-${version}.zip`;
     st = await executePipe(["curl.exe", url, "-o", "/dev/null", "-w", "%{http_code}", "-s"]);
-    return { "name": rec.name, "path": rec.path, "version": version, "dir": dir, "url": url, "script": rec.script, "exists": st.stdout != "404" };
+    return { "name": key, "path": path, "version": version, "dir": dir, "url": url, "exists": st.stdout != "404" };
 }
 
 await execute(["cmd.exe", "/c", "scoop", "install", "git"]);
@@ -68,18 +68,18 @@ await execute(["cmd.exe", "/c", "scoop", "bucket", "add", "main"]);
 await execute(["cmd.exe", "/c", "scoop", "bucket", "add", "extras"]);
 await execute(["cmd.exe", "/c", "scoop", "bucket", "add", "java"]);
 
-let programs = JSONC.parse(await Deno.readTextFile('programs.json.new'));
+let programs = JSONC.parse(await Deno.readTextFile('programs.json'));
 
 let result = [];
 
 for (var rec of programs)
 {
 	console.log(rec);
-    let app = await scoopAppInfo(rec /*rec.name, rec.path*/);
+    let app = await scoopAppInfo(rec[0], rec[1]);
     console.log(app);
     let url_parts = app.url.split(".");
     let ext = url_parts[url_parts.length - 1];
-    result.push({ "name": app.name, "version": app.version, "path": app.path, "url": app.url, "ext": ext, "script": app.script });
+    result.push({ "name": app.name, "version": app.version, "path": app.path, "url": app.url, "ext": ext });
     if (!app.exists)
     {
         Deno.chdir(app.dir);
