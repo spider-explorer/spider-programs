@@ -2,10 +2,10 @@
 <root>
   <item>
     <name>_eclipse-jee</name>
-    <version>2023-03</version>
+    <version>2023-03-R-win32-x86_64</version>
     <ext>zip</ext>
-    <path>.</path>
-    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_eclipse-jee-2023-03.zip</url>
+    <path>/eclipse</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_eclipse-jee-2023-03-R-win32-x86_64.zip</url>
     <script></script>
   </item>
   <item>
