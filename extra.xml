@@ -1,45 +1,187 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <item name="_cs-script">
+  <item>
+    <name>emacs-26.1</name>
+    <version>x86_64</version>
+    <ext>zip</ext>
+    <path>/bin</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/emacs-26.1-x86_64.zip</url>
+    <script></script>
+  </item>
+  <item>
+    <name>emacs-25.2</name>
+    <version>x86_64-with-deps</version>
+    <ext>zip</ext>
+    <path>/bin</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/emacs-25.2-x86_64-with-deps.zip</url>
+    <script></script>
+  </item>
+  <item>
+    <name>emacs-27.1</name>
+    <version>x86_64-no-deps</version>
+    <ext>zip</ext>
+    <path>/bin</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/emacs-27.1-x86_64-no-deps.zip</url>
+    <script></script>
+  </item>
+  <item>
+    <name>_dotPeek</name>
+    <version>2022.3.2</version>
+    <ext>zip</ext>
+    <path>.</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_dotPeek-2022.3.2.zip</url>
+    <script></script>
+  </item>
+  <item>
+    <name>_elvish</name>
+    <version>v0.19.2</version>
+    <ext>zip</ext>
+    <path>.</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_elvish-v0.19.2.zip</url>
+    <script></script>
+  </item>
+  <item>
+    <name>_VSCode</name>
+    <version>win32-x64-1.75.1</version>
+    <ext>zip</ext>
+    <path>/bin;.</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_VSCode-win32-x64-1.75.1.zip</url>
+    <script></script>
+  </item>
+  <item>
+    <name>_node</name>
+    <version>v19.7.0-win-x64</version>
+    <ext>zip</ext>
+    <path>.</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_node-v19.7.0-win-x64.zip</url>
+    <script></script>
+  </item>
+  <item>
+    <name>_emacs</name>
+    <version>29.0.50-snapshot-2022-10-13-nodeps</version>
+    <ext>zip</ext>
+    <path>/bin</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_emacs-29.0.50-snapshot-2022-10-13-nodeps.zip</url>
+    <script></script>
+  </item>
+  <item>
+    <name>_qtemu</name>
+    <version>2022.12.15</version>
+    <ext>zip</ext>
+    <path>.</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_qtemu-2022.12.15.zip</url>
+    <script></script>
+  </item>
+  <item>
+    <name>_qemu</name>
+    <version>20221208</version>
+    <ext>zip</ext>
+    <path>.</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_qemu-20221208.zip</url>
+    <script></script>
+  </item>
+  <item>
+    <name>_gauche</name>
+    <version>0.9.12</version>
+    <ext>zip</ext>
+    <path>/bin</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_gauche-0.9.12.zip</url>
+    <script></script>
+  </item>
+  <item>
+    <name>_FolderSizePortable</name>
+    <version>4.9.5.0</version>
+    <ext>zip</ext>
+    <path>.</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_FolderSizePortable-4.9.5.0.zip</url>
+    <script></script>
+  </item>
+  <item>
+    <name>_FlashDevelop</name>
+    <version>5.3.3</version>
+    <ext>zip</ext>
+    <path>.</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_FlashDevelop-5.3.3.zip</url>
+    <script></script>
+  </item>
+  <item>
+    <name>_dotnet-sdk</name>
+    <version>7.0.201-win-x64</version>
+    <ext>zip</ext>
+    <path>.</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_dotnet-sdk-7.0.201-win-x64.zip</url>
+    <script></script>
+  </item>
+  <item>
+    <name>_racket</name>
+    <version>8.6</version>
+    <ext>zip</ext>
+    <path>.</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_racket-8.6.zip</url>
+    <script></script>
+  </item>
+  <item>
+    <name>_cs-script</name>
     <version>win.v4.4.8.0</version>
     <ext>zip</ext>
     <path>.</path>
     <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_cs-script-win.v4.4.8.0.zip</url>
+    <script></script>
   </item>
-  <item name="_msys2">
-    <version>20220904</version>
+  <item>
+    <name>_msys2</name>
+    <version>20230127</version>
     <ext>zip</ext>
     <path>/mingw64/bin;/usr/bin;.</path>
-    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_msys2-20220904.zip</url>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_msys2-20230127.zip</url>
+    <script></script>
   </item>
-  <item name="_rider">
-    <version>2022.2.3-222.4167.23</version>
+  <item>
+    <name>_rider</name>
+    <version>2022.3.2</version>
     <ext>zip</ext>
-    <path>/IDE/bin</path>
-    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_rider-2022.2.3-222.4167.23.zip</url>
+    <path>/bin</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_rider-2022.3.2.zip</url>
+    <script></script>
   </item>
-  <item name="_winpython">
+  <item>
+    <name>_winpython</name>
     <version>3.10.5</version>
     <ext>zip</ext>
     <path>/Scripts;.</path>
     <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_winpython-3.10.5.zip</url>
+    <script></script>
   </item>
-  <item name="_PowerShell">
+  <item>
+    <name>_PowerShell</name>
     <version>7.2.6-win-x64</version>
     <ext>zip</ext>
     <path>.</path>
     <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_PowerShell-7.2.6-win-x64.zip</url>
+    <script></script>
   </item>
-  <item name="_busybox">
-    <version>tilde64</version>
+  <item>
+    <name>_busybox</name>
+    <version>bbox.2023.03.01.11.38.44</version>
     <ext>zip</ext>
     <path>.</path>
-    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_busybox-tilde64.zip</url>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_busybox-bbox.2023.03.01.11.38.44.zip</url>
+    <script></script>
   </item>
-  <item name="_bluegriffon">
+  <item>
+    <name>_bluegriffon</name>
     <version>3.1</version>
     <ext>zip</ext>
     <path>.</path>
     <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_bluegriffon-3.1.zip</url>
+    <script></script>
+  </item>
+  <item>
+    <name>_obsidian</name>
+    <version>v1.0.0</version>
+    <ext>zip</ext>
+    <path>.</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_obsidian-v1.0.0.zip</url>
+    <script></script>
   </item>
 </root>

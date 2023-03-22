@@ -1,49 +1,253 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <item name="_busybox" path="" />
-  <item name="_bluegriffon" path="" />
-  <item name="_rider" path="" />
-  <item name="_cs-script" path="" />
-  <item name="_PowerShell" path="" />
-  <item name="dotnet-sdk" path="." />
-  <item name="wasmtime" path="." />
-  <item name="idea" path="/IDE/bin" />
-  <item name="qt-creator" path="/bin" />
-  <item name="libreoffice" path="/LibreOffice/program" />
-  <item name="vim" path="." />
-  <item name="dart" path="/bin" />
-  <item name="racket" path="." />
-  <item name="zig" path="." />
-  <item name="tidy" path="." />
-  <item name="xmllint" path="/bin" />
-  <item name="swig" path="." />
-  <item name="dmd" path="/windows/bin" />
-  <item name="nodejs-lts" path="." />
-  <item name="zulu17-jdk" path="/bin" />
-  <item name="nu" path="." />
-  <item name="sliksvn" path="/bin" />
-  <item name="gh" path="/bin" />
-  <item name="googlechrome" path="." />
-  <item name="wixtoolset" path="." />
-  <item name="uncrustify" path="/bin" />
-  <item name="geany" path="/bin" />
-  <item name="deno" path="." />
-  <item name="vscode" path="/bin;." />
-  <item name="file" path="." />
-  <item name="astyle" path="/bin" />
-  <item name="7zip" path="." />
-  <item name="nyagos" path="." />
-  <item name="jq" path="." />
-  <item name="windows-terminal" path="." />
-  <item name="sqlitestudio" path="." />
-  <item name="rapidee" path="." />
-  <item name="notepad3" path="." />
-  <item name="smartgit" path="/bin" />
-  <item name="wget" path="." />
-  <item name="curl" path="/bin" />
-  <item name="qownnotes" path="." />
-  <item name="sed" path="." />
-  <item name="_msys2" path="" />
-  <item name="_winpython" path="" />
-  <item name="git" path="/cmd" />
+  <item>
+    <name>_FolderSizePortable</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>_busybox</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>_elvish</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>_bluegriffon</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>_rider</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>_cs-script</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>_PowerShell</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>_dotPeek</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>_gauche</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>sudo</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>make</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
+    <name>neovim</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
+    <name>dependencies</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>_dotnet-sdk</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>wasmtime</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>vim</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>dart</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
+    <name>_racket</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>zig</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>tidy</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>xmllint</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
+    <name>_node</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>zulu17-jdk</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
+    <name>gradle</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
+    <name>nu</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>sliksvn</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
+    <name>gh</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
+    <name>wixtoolset</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>uncrustify</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
+    <name>geany</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
+    <name>deno</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>_VSCode</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>file</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>astyle</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
+    <name>7zip</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>nyagos</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>jq</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>windows-terminal</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>sqlitestudio</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>rapidee</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>notepad3</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>wget</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>curl</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
+    <name>qownnotes</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>sed</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>_obsidian</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>_msys2</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>_winpython</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>emacs</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
+    <name>git</name>
+    <path>/cmd</path>
+    <script></script>
+  </item>
 </root>
