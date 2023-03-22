@@ -128,7 +128,10 @@
     <script></script>
   </item>
   <item>
+    <!--
     <name>zulu17-jdk</name>
+    -->
+    <name>zulu8-jdk</name>
     <path>/bin</path>
     <script>
       <![CDATA[
