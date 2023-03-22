@@ -1,5 +1,12 @@
 {
   "software": {
+    "_pleiades": {
+      "version": "20230315",
+      "ext": "zip",
+      "path": "/eclipse",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_pleiades-20230315.zip",
+      "script": null
+    },
     "_ideaIC": {
       "version": "2022.3.3.win",
       "ext": "zip",

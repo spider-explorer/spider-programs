@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
   <item>
+    <name>_pleiades</name>
+    <version>20230315</version>
+    <ext>zip</ext>
+    <path>/eclipse</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_pleiades-20230315.zip</url>
+    <script></script>
+  </item>
+  <item>
     <name>_ideaIC</name>
     <version>2022.3.3.win</version>
     <ext>zip</ext>
