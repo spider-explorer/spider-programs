@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Text.RegularExpressions;
 using System.Xml.Linq;
 using System.Xml.XPath;
 
@@ -51,12 +52,21 @@ public static class Program
             var doc2 = ReadTextFileAsXml("cdata.xml");
             Log(doc2);
             Print(doc2.XPathSelectElement("//food/detail"));
-            Print("["+doc2.XPathSelectElement("//food/detail").Value+"]");
+            //Print("["+doc2.XPathSelectElement("//food/detail").Value+"]");
+            string script = doc2.XPathSelectElement("//food/detail").Value;
+            script = TrimNewLines(script); 
+            Print("["+script+"]");
         }
         catch (Exception e)
         {
             Log(e.ToString());
         }
+    }
+
+    private static string TrimNewLines(string text)
+    {
+        //return text.TrimStart('\r', '\n').TrimEnd('\r', '\n');
+        return Regex.Replace(text, @"^\s*[\r\n]+|\s*[\r\n]*$", "");
     }
 
     private static dynamic ReadTextFileAsJson(string filePath)

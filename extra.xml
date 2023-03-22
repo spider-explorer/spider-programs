@@ -110,7 +110,12 @@
     <ext>zip</ext>
     <path>.</path>
     <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_dotnet-sdk-7.0.201-win-x64.zip</url>
-    <script></script>
+    <script>
+      <![CDATA[
+        Util.Print(dir, "dir");
+        vars.DOTNET_ROOT=dir
+      ]]>
+    </script>
   </item>
   <item>
     <name>_racket</name>
