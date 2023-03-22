@@ -1,5 +1,12 @@
 {
   "software": {
+    "_ideaIC": {
+      "version": "2022.3.3.win",
+      "ext": "zip",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_ideaIC-2022.3.3.win.zip",
+      "script": null
+    },
     "emacs-26.1": {
       "version": "x86_64",
       "ext": "zip",
