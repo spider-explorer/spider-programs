@@ -125,6 +125,11 @@
     "script": "        Util.Print(dir, \"dir\");\n        vars.JAVA_HOME=dir;"
   },
   {
+    "name": "zulu17-jdk",
+    "path": "/bin",
+    "script": "        Util.Print(dir, \"dir\");\n        vars.JAVA_HOME=dir;"
+  },
+  {
     "name": "gradle",
     "path": "/bin",
     "script": null

@@ -128,10 +128,17 @@
     <script></script>
   </item>
   <item>
-    <!--
-    <name>zulu17-jdk</name>
-    -->
     <name>zulu8-jdk</name>
+    <path>/bin</path>
+    <script>
+      <![CDATA[
+        Util.Print(dir, "dir");
+        vars.JAVA_HOME=dir;
+      ]]>
+    </script>
+  </item>
+  <item>
+    <name>zulu17-jdk</name>
     <path>/bin</path>
     <script>
       <![CDATA[
