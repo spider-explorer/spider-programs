@@ -1,5 +1,12 @@
 {
   "software": {
+    "_eclipse-jee": {
+      "version": "2023-03",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_eclipse-jee-2023-03.zip",
+      "script": null
+    },
     "_pleiades": {
       "version": "20230315",
       "ext": "zip",
