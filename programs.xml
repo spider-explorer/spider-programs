@@ -8,6 +8,11 @@
   </item>
   -->
   <item>
+    <name>ant</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
     <name>_run8</name>
     <path>[extra]</path>
     <script></script>
