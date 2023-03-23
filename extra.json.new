@@ -1,10 +1,10 @@
 {
   "software": {
     "_run8": {
-      "version": "2023-0323-2302",
+      "version": "2023-0323-2310",
       "ext": "zip",
       "path": ".",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_run8-2023-0323-2302.zip",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_run8-2023-0323-2310.zip",
       "script": null
     },
     "_gradle": {
