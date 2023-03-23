@@ -133,14 +133,19 @@
     <script></script>
   </item>
   <item>
+    <name>zulu8-jre</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
+    <name>zulu17-jre</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
     <name>zulu8-jdk</name>
     <path>/bin</path>
-    <script>
-      <![CDATA[
-        Util.Print(dir, "dir");
-        vars.JAVA_HOME=dir;
-      ]]>
-    </script>
+    <script></script>
   </item>
   <item>
     <name>zulu17-jdk</name>
