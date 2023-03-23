@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
   <item>
+    <name>_gradle</name>
+    <version>7.6.1</version>
+    <ext>zip</ext>
+    <path>/bin</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_gradle-7.6.1.zip</url>
+    <script></script>
+  </item>
+  <item>
     <name>_eclipse-jee</name>
     <version>2023-03-R-win32-x86_64</version>
     <ext>zip</ext>

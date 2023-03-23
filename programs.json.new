@@ -1,5 +1,10 @@
 [
   {
+    "name": "_gradle",
+    "path": null,
+    "script": null
+  },
+  {
     "name": "_eclipse-jee",
     "path": null,
     "script": null
@@ -128,11 +133,6 @@
     "name": "zulu17-jdk",
     "path": "/bin",
     "script": "        Util.Print(dir, \"dir\");\n        vars.JAVA_HOME=dir;"
-  },
-  {
-    "name": "gradle",
-    "path": "/bin",
-    "script": null
   },
   {
     "name": "nu",
