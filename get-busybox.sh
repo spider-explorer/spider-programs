@@ -22,9 +22,10 @@ mkdir -p busybox.tmp
 ./busybox64.exe --install ./busybox.tmp
 cd busybox.tmp
 #rm -rf ar.exe strings.exe unzip.exe ash.exe bash.exe sh.exe sed.exe wget.exe make.exe
+rm -rf sh.exe
 7z a -r -tzip -mcu=on ../_busybox-$ts.zip *
 cd ..
 gh auth login --hostname github.com --git-protocol https --web
 gh release upload 64bit _busybox-$ts.zip
 cd $cwd
-sed -i -e "s/bbox[.][0-9]*[.][0-9]*[.][0-9]*[.][0-9]*[.][0-9]*[.][0-9]*/${ts}/g" extra.json
+sed -i -e "s/bbox[.][0-9]*[.][0-9]*[.][0-9]*[.][0-9]*[.][0-9]*[.][0-9]*/${ts}/g" extra.xml

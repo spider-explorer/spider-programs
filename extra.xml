@@ -210,10 +210,10 @@
   </item>
   <item>
     <name>_busybox</name>
-    <version>bbox.2023.03.01.11.38.44</version>
+    <version>bbox.2023.03.25.20.59.49</version>
     <ext>zip</ext>
     <path>.</path>
-    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_busybox-bbox.2023.03.01.11.38.44.zip</url>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_busybox-bbox.2023.03.25.20.59.49.zip</url>
     <script></script>
   </item>
   <item>
