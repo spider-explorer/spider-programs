@@ -13,6 +13,11 @@
     <script></script>
   </item>
   <item>
+    <name>swig</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
     <name>ant</name>
     <path>/bin</path>
     <script></script>
