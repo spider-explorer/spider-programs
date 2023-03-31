@@ -1,7 +1,17 @@
 [
   {
+    "name": "_busybox",
+    "path": null,
+    "script": null
+  },
+  {
     "name": "mingw-winlibs",
     "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "swig",
+    "path": ".",
     "script": null
   },
   {
@@ -31,11 +41,6 @@
   },
   {
     "name": "_FolderSizePortable",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "_busybox",
     "path": null,
     "script": null
   },

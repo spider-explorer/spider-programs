@@ -24,7 +24,7 @@ public static class Program
             var sum = engine.Invoke("add", 11, 22);
             Print(sum);
             Print(Environment.CurrentDirectory);
-            Environment.CurrentDirectory = @"C:\Users\Public\root\.repo\base2\work\spider-programs";
+            //Environment.CurrentDirectory = @"C:\Users\Public\root\.repo\base2\work\spider-programs";
             //RunCommand("gh", "auth", "login", "--hostname", "github.com", "--git-protocol", "https", "--web");
             string buildDir = Environment.CurrentDirectory + "\\.build";
             Log(buildDir);
