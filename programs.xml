@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!--
   <item>
-    <name>_pleiades</name>
+    <name>_busybox</name>
     <path>[extra]</path>
     <script></script>
   </item>
-  -->
   <item>
     <name>mingw-winlibs</name>
     <path>/bin</path>
@@ -44,11 +42,6 @@
   </item>
   <item>
     <name>_FolderSizePortable</name>
-    <path>[extra]</path>
-    <script></script>
-  </item>
-  <item>
-    <name>_busybox</name>
     <path>[extra]</path>
     <script></script>
   </item>
