@@ -21,6 +21,11 @@
     <script></script>
   </item>
   <item>
+    <name>_wxFormBuilder</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
     <name>_run8</name>
     <path>[extra]</path>
     <script></script>
