@@ -1,5 +1,12 @@
 {
   "software": {
+    "_CodeLite": {
+      "version": "amd64-17.0.0",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_CodeLite-amd64-17.0.0.zip",
+      "script": null
+    },
     "Dev-Cpp": {
       "version": "4.9.9.2",
       "ext": "zip",
