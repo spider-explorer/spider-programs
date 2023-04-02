@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
   <item>
+    <name>_codeblocks</name>
+    <version>20.03mingw-nosetup</version>
+    <ext>zip</ext>
+    <path>.</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_codeblocks-20.03mingw-nosetup.zip</url>
+    <script></script>
+  </item>
+  <item>
     <name>_wxFormBuilder</name>
     <version>v3.10.1</version>
     <ext>zip</ext>

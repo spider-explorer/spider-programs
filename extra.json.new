@@ -1,5 +1,12 @@
 {
   "software": {
+    "_codeblocks": {
+      "version": "20.03mingw-nosetup",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_codeblocks-20.03mingw-nosetup.zip",
+      "script": null
+    },
     "_wxFormBuilder": {
       "version": "v3.10.1",
       "ext": "zip",
