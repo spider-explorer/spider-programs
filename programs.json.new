@@ -20,6 +20,11 @@
     "script": null
   },
   {
+    "name": "_devcpp",
+    "path": null,
+    "script": null
+  },
+  {
     "name": "_codeblocks",
     "path": null,
     "script": null

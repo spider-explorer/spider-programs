@@ -1,5 +1,12 @@
 {
   "software": {
+    "_devcpp": {
+      "version": "4.9.9.2",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_devcpp-4.9.9.2.zip",
+      "script": null
+    },
     "_codeblocks": {
       "version": "20.03mingw-nosetup",
       "ext": "zip",

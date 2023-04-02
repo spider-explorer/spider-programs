@@ -21,6 +21,11 @@
     <script></script>
   </item>
   <item>
+    <name>_devcpp</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
     <name>_codeblocks</name>
     <path>[extra]</path>
     <script></script>
