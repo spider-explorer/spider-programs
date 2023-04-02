@@ -1,5 +1,12 @@
 {
   "software": {
+    "_netbeans": {
+      "version": "17",
+      "ext": "zip",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_netbeans-17.zip",
+      "script": null
+    },
     "_CodeLite": {
       "version": "amd64-17.2.0",
       "ext": "zip",

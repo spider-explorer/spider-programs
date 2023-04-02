@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
   <item>
+    <name>_netbeans</name>
+    <version>17</version>
+    <ext>zip</ext>
+    <path>/bin</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_netbeans-17.zip</url>
+    <script></script>
+  </item>
+  <item>
     <name>_CodeLite</name>
     <version>amd64-17.2.0</version>
     <ext>zip</ext>

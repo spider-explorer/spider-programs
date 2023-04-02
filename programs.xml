@@ -21,6 +21,11 @@
     <script></script>
   </item>
   <item>
+    <name>_netbeans</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
     <name>_CodeLite</name>
     <path>[extra]</path>
     <script></script>
