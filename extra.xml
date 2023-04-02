@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
   <item>
-    <name>_devcpp</name>
+    <name>Dev-Cpp</name>
     <version>4.9.9.2</version>
     <ext>zip</ext>
     <path>.</path>
-    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_devcpp-4.9.9.2.zip</url>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/Dev-Cpp-4.9.9.2.zip</url>
     <script></script>
   </item>
   <item>
