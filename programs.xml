@@ -30,6 +30,7 @@
     <path>[extra]</path>
     <script></script>
   </item>
+  <!--
   <item>
     <name>Dev-Cpp</name>
     <path>[extra]</path>
@@ -40,6 +41,7 @@
     <path>[extra]</path>
     <script></script>
   </item>
+  -->
   <item>
     <name>_wxFormBuilder</name>
     <path>[extra]</path>
