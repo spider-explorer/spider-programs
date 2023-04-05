@@ -21,6 +21,16 @@
     <script></script>
   </item>
   <item>
+    <name>wxWidgets</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>boost</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
     <name>_netbeans</name>
     <path>[extra]</path>
     <script></script>

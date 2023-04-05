@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
   <item>
+    <name>wxWidgets</name>
+    <version>3.2.2.1</version>
+    <ext>zip</ext>
+    <path></path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/wxWidgets-3.2.2.1.zip</url>
+    <script></script>
+  </item>
+  <item>
+    <name>boost</name>
+    <version>1_81_0</version>
+    <ext>zip</ext>
+    <path></path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/boost-1_81_0.zip</url>
+    <script></script>
+  </item>
+  <item>
     <name>_netbeans</name>
     <version>17</version>
     <ext>zip</ext>

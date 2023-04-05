@@ -1,5 +1,19 @@
 {
   "software": {
+    "wxWidgets": {
+      "version": "3.2.2.1",
+      "ext": "zip",
+      "path": "",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/wxWidgets-3.2.2.1.zip",
+      "script": null
+    },
+    "boost": {
+      "version": "1_81_0",
+      "ext": "zip",
+      "path": "",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/boost-1_81_0.zip",
+      "script": null
+    },
     "_netbeans": {
       "version": "17",
       "ext": "zip",

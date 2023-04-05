@@ -20,6 +20,16 @@
     "script": null
   },
   {
+    "name": "wxWidgets",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "boost",
+    "path": null,
+    "script": null
+  },
+  {
     "name": "_netbeans",
     "path": null,
     "script": null
