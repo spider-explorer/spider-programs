@@ -207,6 +207,16 @@
       ]]>
     </script>
   </item>
+  <item>
+    <name>openjdk20</name>
+    <path>/bin</path>
+    <script>
+      <![CDATA[
+        Util.Print(dir, "dir");
+        vars.JAVA_HOME=dir;
+      ]]>
+    </script>
+  </item>
   <!--
   <item>
     <name>gradle</name>

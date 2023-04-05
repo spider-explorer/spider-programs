@@ -190,6 +190,11 @@
     "script": "        Util.Print(dir, \"dir\");\n        vars.JAVA_HOME=dir;"
   },
   {
+    "name": "openjdk20",
+    "path": "/bin",
+    "script": "        Util.Print(dir, \"dir\");\n        vars.JAVA_HOME=dir;"
+  },
+  {
     "name": "nu",
     "path": ".",
     "script": null
