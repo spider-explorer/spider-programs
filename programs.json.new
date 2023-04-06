@@ -20,6 +20,11 @@
     "script": null
   },
   {
+    "name": "wxWidgets-vc",
+    "path": null,
+    "script": null
+  },
+  {
     "name": "wxWidgets",
     "path": null,
     "script": null

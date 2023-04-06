@@ -1,5 +1,12 @@
 {
   "software": {
+    "wxWidgets-vc": {
+      "version": "3.2.2.1",
+      "ext": "zip",
+      "path": "",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/wxWidgets-vc-3.2.2.1.zip",
+      "script": null
+    },
     "wxWidgets": {
       "version": "3.2.2.1",
       "ext": "zip",

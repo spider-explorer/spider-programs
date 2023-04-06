@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
   <item>
+    <name>wxWidgets-vc</name>
+    <version>3.2.2.1</version>
+    <ext>zip</ext>
+    <path></path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/wxWidgets-vc-3.2.2.1.zip</url>
+    <script></script>
+  </item>
+  <item>
     <name>wxWidgets</name>
     <version>3.2.2.1</version>
     <ext>zip</ext>

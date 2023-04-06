@@ -21,6 +21,11 @@
     <script></script>
   </item>
   <item>
+    <name>wxWidgets-vc</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
     <name>wxWidgets</name>
     <path>[extra]</path>
     <script></script>
