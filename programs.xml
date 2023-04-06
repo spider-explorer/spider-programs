@@ -26,6 +26,11 @@
     <script></script>
   </item>
   <item>
+    <name>boost-vc</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
     <name>boost</name>
     <path>[extra]</path>
     <script></script>

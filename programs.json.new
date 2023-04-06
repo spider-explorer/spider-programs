@@ -25,6 +25,11 @@
     "script": null
   },
   {
+    "name": "boost-vc",
+    "path": null,
+    "script": null
+  },
+  {
     "name": "boost",
     "path": null,
     "script": null

@@ -7,6 +7,13 @@
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/wxWidgets-3.2.2.1.zip",
       "script": null
     },
+    "boost-vc": {
+      "version": "1_81_0",
+      "ext": "zip",
+      "path": "",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/boost-vc-1_81_0.zip",
+      "script": null
+    },
     "boost": {
       "version": "1_81_0",
       "ext": "zip",

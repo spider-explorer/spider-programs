@@ -9,6 +9,14 @@
     <script></script>
   </item>
   <item>
+    <name>boost-vc</name>
+    <version>1_81_0</version>
+    <ext>zip</ext>
+    <path></path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/boost-vc-1_81_0.zip</url>
+    <script></script>
+  </item>
+  <item>
     <name>boost</name>
     <version>1_81_0</version>
     <ext>zip</ext>
