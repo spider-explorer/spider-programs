@@ -11,6 +11,11 @@
     <script></script>
   </item>
   <item>
+    <name>qt-creator</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
     <name>swig</name>
     <path>.</path>
     <script></script>

@@ -10,6 +10,11 @@
     "script": null
   },
   {
+    "name": "qt-creator",
+    "path": "/bin",
+    "script": null
+  },
+  {
     "name": "swig",
     "path": ".",
     "script": null
