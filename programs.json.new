@@ -25,6 +25,11 @@
     "script": null
   },
   {
+    "name": "resource_hacker",
+    "path": null,
+    "script": null
+  },
+  {
     "name": "wxWidgets-vc",
     "path": null,
     "script": null

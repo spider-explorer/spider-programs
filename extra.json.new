@@ -1,5 +1,12 @@
 {
   "software": {
+    "resource_hacker": {
+      "version": "5.1.7",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/resource_hacker-5.1.7.zip",
+      "script": null
+    },
     "wxWidgets-vc": {
       "version": "3.2.2.1",
       "ext": "zip",

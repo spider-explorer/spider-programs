@@ -26,6 +26,11 @@
     <script></script>
   </item>
   <item>
+    <name>resource_hacker</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
     <name>wxWidgets-vc</name>
     <path>[extra]</path>
     <script></script>
