@@ -5,6 +5,11 @@
     "script": null
   },
   {
+    "name": "perl",
+    "path": "/perl/bin",
+    "script": null
+  },
+  {
     "name": "mingw-winlibs",
     "path": "/bin",
     "script": null

@@ -6,6 +6,11 @@
     <script></script>
   </item>
   <item>
+    <name>perl</name>
+    <path>/perl/bin</path>
+    <script></script>
+  </item>
+  <item>
     <name>mingw-winlibs</name>
     <path>/bin</path>
     <script></script>
