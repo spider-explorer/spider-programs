@@ -217,6 +217,13 @@
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_cs-script-win.v4.4.8.0.zip",
       "script": null
     },
+    "msys2": {
+      "version": "x86_64-20230318",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://www.dropbox.com/s/dzxcywvnqj82eg4/msys2-x86_64-20230318.zip?dl=1",
+      "script": null
+    },
     "_msys2": {
       "version": "20230127",
       "ext": "zip",

@@ -254,6 +254,14 @@
     <script></script>
   </item>
   <item>
+    <name>msys2</name>
+    <version>x86_64-20230318</version>
+    <ext>zip</ext>
+    <path>.</path>
+    <url>https://www.dropbox.com/s/dzxcywvnqj82eg4/msys2-x86_64-20230318.zip?dl=1</url>
+    <script></script>
+  </item>
+  <item>
     <name>_msys2</name>
     <version>20230127</version>
     <ext>zip</ext>
