@@ -50,7 +50,7 @@ console.log(extra);
 
 async function scoopAppInfo(rec /*key, path*/) {
     if (rec.path == null) {
-      return { "name": rec.name, "path": extra[rec.name]["path"], "version": extra[rec.name]["version"], "dir": null, "url": extra[rec.name]["url"], "script": extra[rec.name]["script"], "exists": true };
+      return { "name": rec.name, "path": extra[rec.name]["path"], "version": extra[rec.name]["version"], "dir": null, "ext": extra[rec.name]["ext"], "url": extra[rec.name]["url"], "script": extra[rec.name]["script"], "exists": true };
     }
     await execute(["cmd.exe", "/c", "scoop", "install", rec.name]);
     await execute(["cmd.exe", "/c", "scoop", "update", rec.name]);
@@ -60,7 +60,7 @@ async function scoopAppInfo(rec /*key, path*/) {
     let dir = list[1];
     let url = `https://github.com/spider-explorer/spider-programs/releases/download/64bit/${rec.name}-${version}.zip`;
     st = await executePipe(["curl.exe", url, "-o", "/dev/null", "-w", "%{http_code}", "-s"]);
-    return { "name": rec.name, "path": rec.path, "version": version, "dir": dir, "url": url, "script": rec.script, "exists": st.stdout != "404" };
+    return { "name": rec.name, "path": rec.path, "version": version, "dir": dir, "ext": "zip", "url": url, "script": rec.script, "exists": st.stdout != "404" };
 }
 
 await execute(["cmd.exe", "/c", "scoop", "install", "git"]);
@@ -77,9 +77,9 @@ for (var rec of programs)
 	console.log(rec);
     let app = await scoopAppInfo(rec /*rec.name, rec.path*/);
     console.log(app);
-    let url_parts = app.url.split(".");
-    let ext = url_parts[url_parts.length - 1];
-    result.push({ "name": app.name, "version": app.version, "path": app.path, "url": app.url, "ext": ext, "script": app.script });
+    //let url_parts = app.url.split(".");
+    //let ext = url_parts[url_parts.length - 1];
+    result.push({ "name": app.name, "version": app.version, "path": app.path, "url": app.url, "ext": app.ext, "script": app.script });
     if (!app.exists)
     {
         Deno.chdir(app.dir);
