@@ -143,15 +143,22 @@
     <script></script>
   </item>
   <item>
+    <name>firefox</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
     <name>sudo</name>
     <path>.</path>
     <script></script>
   </item>
+  <!--
   <item>
     <name>make</name>
     <path>/bin</path>
     <script></script>
   </item>
+  -->
   <item>
     <name>neovim</name>
     <path>/bin</path>

@@ -130,13 +130,13 @@
     "script": null
   },
   {
-    "name": "sudo",
+    "name": "firefox",
     "path": ".",
     "script": null
   },
   {
-    "name": "make",
-    "path": "/bin",
+    "name": "sudo",
+    "path": ".",
     "script": null
   },
   {
