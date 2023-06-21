@@ -15,11 +15,13 @@
     <path>/bin</path>
     <script></script>
   </item>
+  <!--
   <item>
     <name>qt-creator</name>
     <path>/bin</path>
     <script></script>
   </item>
+  -->
   <item>
     <name>swig</name>
     <path>.</path>
@@ -184,11 +186,13 @@
     <path>.</path>
     <script></script>
   </item>
+  <!--
   <item>
     <name>dart</name>
     <path>/bin</path>
     <script></script>
   </item>
+  -->
   <item>
     <name>_racket</name>
     <path>[extra]</path>
@@ -301,11 +305,13 @@
     <path>.</path>
     <script></script>
   </item>
+  <!--
   <item>
     <name>astyle</name>
     <path>/bin</path>
     <script></script>
   </item>
+  -->
   <item>
     <name>7zip</name>
     <path>.</path>

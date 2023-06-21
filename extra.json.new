@@ -141,10 +141,10 @@
       "script": null
     },
     "_VSCode": {
-      "version": "win32-x64-1.75.1",
+      "version": "win32-x64-1.79.1",
       "ext": "zip",
       "path": "/bin;.",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_VSCode-win32-x64-1.75.1.zip",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_VSCode-win32-x64-1.79.1.zip",
       "script": null
     },
     "_node": {
@@ -232,10 +232,10 @@
       "script": null
     },
     "_rider": {
-      "version": "2022.3.2",
+      "version": "2023.1.2.win",
       "ext": "zip",
       "path": "/bin",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_rider-2022.3.2.zip",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_rider-2023.1.2.win.zip",
       "script": null
     },
     "_winpython": {

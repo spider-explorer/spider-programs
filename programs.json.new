@@ -15,11 +15,6 @@
     "script": null
   },
   {
-    "name": "qt-creator",
-    "path": "/bin",
-    "script": null
-  },
-  {
     "name": "swig",
     "path": ".",
     "script": null
@@ -165,11 +160,6 @@
     "script": null
   },
   {
-    "name": "dart",
-    "path": "/bin",
-    "script": null
-  },
-  {
     "name": "_racket",
     "path": null,
     "script": null
@@ -262,11 +252,6 @@
   {
     "name": "file",
     "path": ".",
-    "script": null
-  },
-  {
-    "name": "astyle",
-    "path": "/bin",
     "script": null
   },
   {
