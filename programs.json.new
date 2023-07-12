@@ -5,6 +5,21 @@
     "script": null
   },
   {
+    "name": "innounp",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "inno-setup",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "inno-script-studio",
+    "path": ".",
+    "script": null
+  },
+  {
     "name": "perl",
     "path": "/perl/bin",
     "script": null

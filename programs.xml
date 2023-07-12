@@ -6,6 +6,21 @@
     <script></script>
   </item>
   <item>
+    <name>innounp</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>inno-setup</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>inno-script-studio</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
     <name>perl</name>
     <path>/perl/bin</path>
     <script></script>
