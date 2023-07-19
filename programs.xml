@@ -6,6 +6,16 @@
     <script></script>
   </item>
   <item>
+    <name>groovy</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
+    <name>gradle</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
     <name>innounp</name>
     <path>.</path>
     <script></script>
@@ -104,11 +114,13 @@
     <path>[extra]</path>
     <script></script>
   </item>
+  <!--
   <item>
     <name>_gradle</name>
     <path>[extra]</path>
     <script></script>
   </item>
+  -->
   <item>
     <name>_eclipse-jee</name>
     <path>[extra]</path>

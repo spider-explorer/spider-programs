@@ -5,6 +5,16 @@
     "script": null
   },
   {
+    "name": "groovy",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "gradle",
+    "path": "/bin",
+    "script": null
+  },
+  {
     "name": "innounp",
     "path": ".",
     "script": null
@@ -81,11 +91,6 @@
   },
   {
     "name": "_run8",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "_gradle",
     "path": null,
     "script": null
   },
