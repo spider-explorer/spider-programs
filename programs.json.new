@@ -5,6 +5,11 @@
     "script": null
   },
   {
+    "name": "idea",
+    "path": "/IDE/bin",
+    "script": null
+  },
+  {
     "name": "groovy",
     "path": "/bin",
     "script": null
@@ -91,11 +96,6 @@
   },
   {
     "name": "_run8",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "_eclipse-jee",
     "path": null,
     "script": null
   },
