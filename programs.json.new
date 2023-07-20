@@ -5,6 +5,11 @@
     "script": null
   },
   {
+    "name": "maven",
+    "path": "/bin",
+    "script": null
+  },
+  {
     "name": "netbeans",
     "path": "/bin",
     "script": null
