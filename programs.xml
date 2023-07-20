@@ -125,17 +125,19 @@
     <path>[extra]</path>
     <script></script>
   </item>
+  -->
   <item>
     <name>_eclipse-jee</name>
     <path>[extra]</path>
     <script></script>
   </item>
-  -->
+  <!--
   <item>
     <name>_ideaIC</name>
     <path>[extra]</path>
     <script></script>
   </item>
+  -->
   <item>
     <name>_FolderSizePortable</name>
     <path>[extra]</path>
