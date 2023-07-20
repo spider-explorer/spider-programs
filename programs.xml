@@ -6,6 +6,11 @@
     <script></script>
   </item>
   <item>
+    <name>netbeans</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
     <name>idea</name>
     <path>/IDE/bin</path>
     <script></script>
@@ -87,11 +92,13 @@
     <path>[extra]</path>
     <script></script>
   </item>
+  <!--
   <item>
     <name>_netbeans</name>
     <path>[extra]</path>
     <script></script>
   </item>
+  -->
   <item>
     <name>_CodeLite</name>
     <path>[extra]</path>

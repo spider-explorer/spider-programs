@@ -5,6 +5,11 @@
     "script": null
   },
   {
+    "name": "netbeans",
+    "path": "/bin",
+    "script": null
+  },
+  {
     "name": "idea",
     "path": "/IDE/bin",
     "script": null
@@ -76,11 +81,6 @@
   },
   {
     "name": "boost",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "_netbeans",
     "path": null,
     "script": null
   },
