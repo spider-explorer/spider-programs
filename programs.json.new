@@ -5,6 +5,11 @@
     "script": null
   },
   {
+    "name": "kotlin",
+    "path": "/bin",
+    "script": null
+  },
+  {
     "name": "_scala",
     "path": null,
     "script": null

@@ -6,6 +6,11 @@
     <script></script>
   </item>
   <item>
+    <name>kotlin</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
     <name>_scala</name>
     <path>[extra]</path>
     <script></script>
