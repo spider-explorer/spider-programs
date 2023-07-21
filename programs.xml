@@ -6,6 +6,11 @@
     <script></script>
   </item>
   <item>
+    <name>_scala</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
     <name>maven</name>
     <path>/bin</path>
     <script></script>

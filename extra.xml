@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
   <item>
+    <name>_scala</name>
+    <version>2.13.2</version>
+    <ext>zip</ext>
+    <path>/bin</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/_scala-2.13.2.zip</url>
+    <script></script>
+  </item>
+  <item>
     <name>resource_hacker</name>
     <version>5.1.7</version>
     <ext>zip</ext>

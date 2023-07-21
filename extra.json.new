@@ -1,5 +1,12 @@
 {
   "software": {
+    "_scala": {
+      "version": "2.13.2",
+      "ext": "zip",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_scala-2.13.2.zip",
+      "script": null
+    },
     "resource_hacker": {
       "version": "5.1.7",
       "ext": "zip",
