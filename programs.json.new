@@ -240,6 +240,11 @@
     "script": null
   },
   {
+    "name": "zulu14-jdk",
+    "path": "/bin",
+    "script": null
+  },
+  {
     "name": "zulu17-jdk",
     "path": "/bin",
     "script": "        Util.Print(dir, \"dir\");\n        vars.JAVA_HOME=dir;"
