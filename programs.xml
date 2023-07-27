@@ -6,6 +6,11 @@
     <script></script>
   </item>
   <item>
+    <name>cmder_mini</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
     <name>kotlin</name>
     <path>/bin</path>
     <script></script>
@@ -283,26 +288,6 @@
         vars.JAVA_HOME=dir;
       ]]>
     </script>
-  </item>
-  <item>
-    <name>zulu8-jre</name>
-    <path>/bin</path>
-    <script></script>
-  </item>
-  <item>
-    <name>zulu17-jre</name>
-    <path>/bin</path>
-    <script></script>
-  </item>
-  <item>
-    <name>zulu8-jdk</name>
-    <path>/bin</path>
-    <script></script>
-  </item>
-  <item>
-    <name>zulu14-jdk</name>
-    <path>/bin</path>
-    <script></script>
   </item>
   <item>
     <name>zulu17-jdk</name>

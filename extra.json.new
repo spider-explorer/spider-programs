@@ -1,5 +1,12 @@
 {
   "software": {
+    "cmder_mini": {
+      "version": "1.3.24.236",
+      "ext": "zip",
+      "path": ".",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/cmder_mini-1.3.24.236.zip",
+      "script": null
+    },
     "_scala": {
       "version": "2.13.2",
       "ext": "zip",
