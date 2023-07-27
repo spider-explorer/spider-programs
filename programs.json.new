@@ -341,7 +341,7 @@
   },
   {
     "name": "msys2",
-    "path": null,
+    "path": ".",
     "script": null
   },
   {

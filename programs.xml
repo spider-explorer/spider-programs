@@ -418,9 +418,16 @@
     <path>[extra]</path>
     <script></script>
   </item>
+  <!--
   <item>
     <name>msys2</name>
     <path>[extra]</path>
+    <script></script>
+  </item>
+  -->
+  <item>
+    <name>msys2</name>
+    <path>.</path>
     <script></script>
   </item>
   <item>
