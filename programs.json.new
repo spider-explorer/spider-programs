@@ -340,11 +340,6 @@
     "script": null
   },
   {
-    "name": "msys2",
-    "path": ".",
-    "script": null
-  },
-  {
     "name": "_winpython",
     "path": null,
     "script": null
