@@ -5,6 +5,11 @@
     "script": null
   },
   {
+    "name": "qt-creator",
+    "path": "/bin",
+    "script": null
+  },
+  {
     "name": "cmder_mini",
     "path": null,
     "script": null

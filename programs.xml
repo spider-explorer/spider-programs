@@ -6,6 +6,11 @@
     <script></script>
   </item>
   <item>
+    <name>qt-creator</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
     <name>cmder_mini</name>
     <path>[extra]</path>
     <script></script>
@@ -70,13 +75,6 @@
     <path>/bin</path>
     <script></script>
   </item>
-  <!--
-  <item>
-    <name>qt-creator</name>
-    <path>/bin</path>
-    <script></script>
-  </item>
-  -->
   <item>
     <name>swig</name>
     <path>.</path>
