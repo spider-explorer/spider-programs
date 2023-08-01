@@ -5,6 +5,11 @@
     "script": null
   },
   {
+    "name": "libreoffice",
+    "path": "/LibreOffice/program",
+    "script": null
+  },
+  {
     "name": "qt-creator",
     "path": "/bin",
     "script": null
@@ -167,11 +172,6 @@
   {
     "name": "_gauche",
     "path": null,
-    "script": null
-  },
-  {
-    "name": "firefox",
-    "path": ".",
     "script": null
   },
   {
@@ -347,11 +347,6 @@
   {
     "name": "_winpython",
     "path": null,
-    "script": null
-  },
-  {
-    "name": "emacs",
-    "path": "/bin",
     "script": null
   },
   {

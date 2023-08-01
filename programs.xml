@@ -6,6 +6,11 @@
     <script></script>
   </item>
   <item>
+    <name>libreoffice</name>
+    <path>/LibreOffice/program</path>
+    <script></script>
+  </item>
+  <item>
     <name>qt-creator</name>
     <path>/bin</path>
     <script></script>
@@ -203,11 +208,13 @@
     <path>[extra]</path>
     <script></script>
   </item>
+  <!--
   <item>
     <name>firefox</name>
     <path>.</path>
     <script></script>
   </item>
+  -->
   <item>
     <name>sudo</name>
     <path>.</path>
@@ -433,11 +440,13 @@
     <path>[extra]</path>
     <script></script>
   </item>
+  <!--
   <item>
     <name>emacs</name>
     <path>/bin</path>
     <script></script>
   </item>
+  -->
   <item>
     <name>git</name>
     <path>/cmd</path>
