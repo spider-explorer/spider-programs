@@ -5,6 +5,11 @@
     "script": null
   },
   {
+    "name": "firefox",
+    "path": ".",
+    "script": null
+  },
+  {
     "name": "libreoffice",
     "path": "/LibreOffice/program",
     "script": null
