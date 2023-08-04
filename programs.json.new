@@ -75,11 +75,6 @@
     "script": null
   },
   {
-    "name": "perl",
-    "path": "/perl/bin",
-    "script": null
-  },
-  {
     "name": "mingw-winlibs",
     "path": "/bin",
     "script": null
@@ -346,11 +341,6 @@
   },
   {
     "name": "_obsidian",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "_winpython",
     "path": null,
     "script": null
   },
