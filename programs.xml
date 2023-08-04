@@ -6,6 +6,16 @@
     <script></script>
   </item>
   <item>
+    <name>active-perl</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>active-python</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
     <name>firefox</name>
     <path>.</path>
     <script></script>

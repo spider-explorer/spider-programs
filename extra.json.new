@@ -1,5 +1,19 @@
 {
   "software": {
+    "active-perl": {
+      "version": "5.36.1",
+      "ext": "zip",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/active-perl-5.36.1.zip",
+      "script": null
+    },
+    "active-python": {
+      "version": "2.7",
+      "ext": "zip",
+      "path": "/Scripts;.",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/active-python-2.7.zip",
+      "script": null
+    },
     "cmder_mini": {
       "version": "1.3.24.236",
       "ext": "zip",

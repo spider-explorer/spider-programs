@@ -5,6 +5,16 @@
     "script": null
   },
   {
+    "name": "active-perl",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "active-python",
+    "path": null,
+    "script": null
+  },
+  {
     "name": "firefox",
     "path": ".",
     "script": null

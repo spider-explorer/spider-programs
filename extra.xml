@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
   <item>
+    <name>active-perl</name>
+    <version>5.36.1</version>
+    <ext>zip</ext>
+    <path>/bin</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/active-perl-5.36.1.zip</url>
+    <script></script>
+  </item>
+  <item>
+    <name>active-python</name>
+    <version>2.7</version>
+    <ext>zip</ext>
+    <path>/Scripts;.</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/active-python-2.7.zip</url>
+    <script></script>
+  </item>
+  <item>
     <name>cmder_mini</name>
     <version>1.3.24.236</version>
     <ext>zip</ext>
