@@ -5,16 +5,6 @@
     "script": null
   },
   {
-    "name": "active-perl",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "active-python",
-    "path": null,
-    "script": null
-  },
-  {
     "name": "firefox",
     "path": ".",
     "script": null
@@ -82,11 +72,6 @@
   {
     "name": "inno-script-studio",
     "path": ".",
-    "script": null
-  },
-  {
-    "name": "mingw-winlibs",
-    "path": "/bin",
     "script": null
   },
   {
@@ -352,6 +337,41 @@
   {
     "name": "_obsidian",
     "path": null,
+    "script": null
+  },
+  {
+    "name": "mingw",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "make",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "cmake",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "ninja",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "active-perl",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "active-python",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "ruby",
+    "path": "/bin",
     "script": null
   },
   {

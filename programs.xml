@@ -6,16 +6,6 @@
     <script></script>
   </item>
   <item>
-    <name>active-perl</name>
-    <path>[extra]</path>
-    <script></script>
-  </item>
-  <item>
-    <name>active-python</name>
-    <path>[extra]</path>
-    <script></script>
-  </item>
-  <item>
     <name>firefox</name>
     <path>.</path>
     <script></script>
@@ -92,11 +82,13 @@
     <script></script>
   </item>
   -->
+  <!--
   <item>
     <name>mingw-winlibs</name>
     <path>/bin</path>
     <script></script>
   </item>
+  -->
   <item>
     <name>swig</name>
     <path>.</path>
@@ -230,13 +222,6 @@
     <path>.</path>
     <script></script>
   </item>
-  <!--
-  <item>
-    <name>make</name>
-    <path>/bin</path>
-    <script></script>
-  </item>
-  -->
   <item>
     <name>neovim</name>
     <path>/bin</path>
@@ -459,6 +444,41 @@
     <script></script>
   </item>
   -->
+  <item>
+    <name>mingw</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>make</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
+    <name>cmake</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
+  <item>
+    <name>ninja</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
+    <name>active-perl</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>active-python</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>ruby</name>
+    <path>/bin</path>
+    <script></script>
+  </item>
   <item>
     <name>git</name>
     <path>/cmd</path>

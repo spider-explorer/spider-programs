@@ -1,5 +1,12 @@
 {
   "software": {
+    "mingw": {
+      "version": "8.1.0",
+      "ext": "zip",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/mingw-8.1.0.zip",
+      "script": null
+    },
     "active-perl": {
       "version": "5.36.1",
       "ext": "zip",

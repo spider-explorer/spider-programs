@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
   <item>
+    <name>mingw</name>
+    <version>8.1.0</version>
+    <ext>zip</ext>
+    <path>/bin</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/mingw-8.1.0.zip</url>
+    <script></script>
+  </item>
+  <item>
     <name>active-perl</name>
     <version>5.36.1</version>
     <ext>zip</ext>
