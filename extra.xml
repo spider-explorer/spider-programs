@@ -9,6 +9,14 @@
     <script></script>
   </item>
   <item>
+    <name>qt-mingw</name>
+    <version>5.15.2</version>
+    <ext>zip</ext>
+    <path>/bin</path>
+    <url>https://drive.google.com/uc?export=download&id=1PPjzb1o35y0l7ezRuI92t8NevVJ7DmOA</url>
+    <script></script>
+  </item>
+  <item>
     <name>active-perl</name>
     <version>5.36.1</version>
     <ext>zip</ext>

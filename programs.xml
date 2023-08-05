@@ -480,6 +480,11 @@
     <script></script>
   </item>
   <item>
+    <name>qt-mingw</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
     <name>git</name>
     <path>/cmd</path>
     <script></script>
