@@ -269,11 +269,13 @@
     <path>.</path>
     <script></script>
   </item>
+  <!--
   <item>
     <name>xmllint</name>
     <path>/bin</path>
     <script></script>
   </item>
+  -->
   <item>
     <name>_node</name>
     <path>[extra]</path>
