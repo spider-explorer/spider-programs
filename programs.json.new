@@ -375,6 +375,11 @@
     "script": null
   },
   {
+    "name": "qt-mingw",
+    "path": null,
+    "script": null
+  },
+  {
     "name": "git",
     "path": "/cmd",
     "script": null

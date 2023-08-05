@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
   <item>
+    <name>qt-mingw</name>
+    <version>5.15.2a</version>
+    <ext>zip</ext>
+    <path>/bin</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/qt-mingw-5.15.2a.zip</url>
+    <script></script>
+  </item>
+  <item>
     <name>mingw</name>
     <version>8.1.0</version>
     <ext>zip</ext>
     <path>/bin</path>
     <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/mingw-8.1.0.zip</url>
-    <script></script>
-  </item>
-  <item>
-    <name>qt-mingw</name>
-    <version>5.15.2</version>
-    <ext>zip</ext>
-    <path>/bin</path>
-    <url>https://drive.google.com/uc?export=download&id=1PPjzb1o35y0l7ezRuI92t8NevVJ7DmOA</url>
     <script></script>
   </item>
   <item>

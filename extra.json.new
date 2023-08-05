@@ -1,5 +1,12 @@
 {
   "software": {
+    "qt-mingw": {
+      "version": "5.15.2a",
+      "ext": "zip",
+      "path": "/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/qt-mingw-5.15.2a.zip",
+      "script": null
+    },
     "mingw": {
       "version": "8.1.0",
       "ext": "zip",
