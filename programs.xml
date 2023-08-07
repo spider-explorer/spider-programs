@@ -6,6 +6,11 @@
     <script></script>
   </item>
   <item>
+    <name>lazarus</name>
+    <path>.</path>
+    <script></script>
+  </item>
+  <item>
     <name>firefox</name>
     <path>.</path>
     <script></script>
