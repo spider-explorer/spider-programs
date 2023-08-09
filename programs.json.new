@@ -375,7 +375,7 @@
     "script": null
   },
   {
-    "name": "qt-mingw",
+    "name": "qt-static",
     "path": null,
     "script": null
   },

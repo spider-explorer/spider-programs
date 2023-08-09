@@ -1,10 +1,10 @@
 {
   "software": {
-    "qt-mingw": {
-      "version": "5.15.2b",
+    "qt-static": {
+      "version": "5.15.2",
       "ext": "zip",
       "path": "/bin",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/qt-mingw-5.15.2b.zip",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/qt-static-5.15.2.zip",
       "script": null
     },
     "mingw": {

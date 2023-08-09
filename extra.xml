@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
   <item>
-    <name>qt-mingw</name>
-    <version>5.15.2b</version>
+    <name>qt-static</name>
+    <version>5.15.2</version>
     <ext>zip</ext>
     <path>/bin</path>
-    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/qt-mingw-5.15.2b.zip</url>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/qt-static-5.15.2.zip</url>
     <script></script>
   </item>
   <item>
