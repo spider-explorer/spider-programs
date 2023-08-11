@@ -9,11 +9,19 @@
     <script></script>
   </item>
   <item>
-    <name>mingw</name>
+    <name>mingw64</name>
     <version>8.1.0</version>
     <ext>zip</ext>
     <path>/bin</path>
-    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/mingw-8.1.0.zip</url>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/mingw64-8.1.0.zip</url>
+    <script></script>
+  </item>
+  <item>
+    <name>mingw32</name>
+    <version>8.1.0</version>
+    <ext>zip</ext>
+    <path>/bin</path>
+    <url>https://github.com/spider-explorer/spider-programs/releases/download/64bit/mingw32-8.1.0.zip</url>
     <script></script>
   </item>
   <item>

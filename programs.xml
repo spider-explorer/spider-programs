@@ -452,7 +452,12 @@
   </item>
   -->
   <item>
-    <name>mingw</name>
+    <name>mingw32</name>
+    <path>[extra]</path>
+    <script></script>
+  </item>
+  <item>
+    <name>mingw64</name>
     <path>[extra]</path>
     <script></script>
   </item>

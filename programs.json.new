@@ -340,7 +340,12 @@
     "script": null
   },
   {
-    "name": "mingw",
+    "name": "mingw32",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "mingw64",
     "path": null,
     "script": null
   },
