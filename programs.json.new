@@ -5,11 +5,6 @@
     "script": null
   },
   {
-    "name": "lazarus",
-    "path": ".",
-    "script": null
-  },
-  {
     "name": "firefox",
     "path": ".",
     "script": null
