@@ -45,7 +45,7 @@ await execute(["gh", "auth", "login", "--hostname", "github.com", "--git-protoco
 let buildDir = cwd + "\\.build";
 Deno.mkdir(buildDir, { recursive: true });
 
-let extra = JSONC.parse(await Deno.readTextFile('extra.json.new'))["software"];
+let extra = JSONC.parse(await Deno.readTextFile('extra.json'))["software"];
 console.log(extra);
 
 async function scoopAppInfo(rec /*key, path*/) {
@@ -68,7 +68,7 @@ await execute(["cmd.exe", "/c", "scoop", "bucket", "add", "main"]);
 await execute(["cmd.exe", "/c", "scoop", "bucket", "add", "extras"]);
 await execute(["cmd.exe", "/c", "scoop", "bucket", "add", "java"]);
 
-let programs = JSONC.parse(await Deno.readTextFile('programs.json.new'));
+let programs = JSONC.parse(await Deno.readTextFile('programs.json'));
 
 let result = [];
 

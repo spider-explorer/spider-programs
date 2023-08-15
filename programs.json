@@ -1,78 +1,392 @@
 [
-    ["_FolderSizePortable", null],
-    ["_busybox", null],
-    ["_elvish", null],
-    ["_bluegriffon", null],
-    ["_rider", null],
-    ["_cs-script", null],
-    ["_PowerShell", null],
-    ["_dotPeek", null],
-    //["_FlashDevelop", null],
-    //["neko", "."],
-    //["haxe", "."],
-    //["_qemu", null],
-    //["_qtemu", null],
-    ["_gauche", null],
-    //["vivaldi", "/Application"],
-    //["sbcl", "."],
-    ["sudo", "."],
-    ["make", "/bin"],
-    ["neovim", "/bin"],
-    ["dependencies", "."],
-    //["firefox", "."],
-    //["dotnet-sdk", "."],
-    ["_dotnet-sdk", null],
-    ["wasmtime", "."],
-    //["idea", "/IDE/bin"],
-    //["qt-creator", "/bin"],
-    //["libreoffice", "/LibreOffice/program"],
-    ["vim", "."],
-    ["dart", "/bin"],
-    //["racket", "."],
-    ["_racket", null],
-    ["zig", "."],
-    ["tidy", "."],
-    ["xmllint", "/bin"],
-    //["swig", "."],
-    //["dmd", "/windows/bin"],
-    //["nodejs-lts", "."],
-    //["nodejs", "."],
-    ["_node", null],
-    ["zulu17-jdk", "/bin"],
-    ["gradle", "/bin"],
-    ["nu", "."],
-    ["sliksvn", "/bin"],
-    ["gh", "/bin"],
-    //["googlechrome", "."],
-    ["wixtoolset", "."],
-    ["uncrustify", "/bin"],
-    ["geany", "/bin"],
-    ["deno", "."],
-    //["vscode", "/bin;."],
-    ["_VSCode", null],
-    ["file", "."],
-    ["astyle", "/bin"],
-    ["7zip", "."],
-    ["nyagos", "."],
-    ["jq", "."],
-    ["windows-terminal", "."],
-    ["sqlitestudio", "."],
-    ["rapidee", "."],
-    ["notepad3", "."],
-    //["smartgit", "/bin"],
-    ["wget", "."],
-    ["curl", "/bin"],
-    ["qownnotes", "."],
-    ["sed", "."],
-    ["_obsidian", null],
-    ["_msys2", null],
-    ["_winpython", null],
-    ["emacs", "/bin"],
-    //["_emacs", null],
-    //["emacs-27.1", null],
-    //["emacs-25.2", null],
-    //["emacs-26.1", null],
-    //["erlang", "/bin"],
-    //["elixir", "/bin"],
-    ["git", "/cmd"]
+  {
+    "name": "_busybox",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "firefox",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "libreoffice",
+    "path": "/LibreOffice/program",
+    "script": null
+  },
+  /*
+  {
+    "name": "qt-creator",
+    "path": "/bin",
+    "script": null
+  },
+  */
+  {
+    "name": "cmder_mini",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "kotlin",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "_scala",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "maven",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "netbeans",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "idea",
+    "path": "/IDE/bin",
+    "script": null
+  },
+  {
+    "name": "groovy",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "gradle",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "innounp",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "inno-setup",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "inno-script-studio",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "swig",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "ant",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "resource_hacker",
+    "path": null,
+    "script": null
+  },
+  /*
+  {
+    "name": "wxWidgets-vc",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "wxWidgets",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "boost-vc",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "boost",
+    "path": null,
+    "script": null
+  },
+  */
+  {
+    "name": "_CodeLite",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "_wxFormBuilder",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "_run8",
+    "path": null,
+    "script": null
+  },
+  /*
+  {
+    "name": "_eclipse-jee",
+    "path": null,
+    "script": null
+  },
+  */
+  {
+    "name": "_FolderSizePortable",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "_elvish",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "_bluegriffon",
+    "path": null,
+    "script": null
+  },
+  /*
+  {
+    "name": "_rider",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "_cs-script",
+    "path": null,
+    "script": null
+  },
+  */
+  {
+    "name": "_PowerShell",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "_dotPeek",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "_gauche",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "sudo",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "neovim",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "dependencies",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "_dotnet-sdk",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "wasmtime",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "vim",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "_racket",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "zig",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "tidy",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "_node",
+    "path": null,
+    "script": null
+  },
+  /*
+  {
+    "name": "openjdk20",
+    "path": "/bin",
+    "script": "        Util.Print(dir, \"dir\");\n        vars.JAVA_HOME=dir;"
+  },
+  */
+  {
+    "name": "zulu17-jdk",
+    "path": "/bin",
+    "script": "        Util.Print(dir, \"dir\");\n        vars.JAVA_HOME=dir;"
+  },
+  {
+    "name": "nu",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "sliksvn",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "gh",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "wixtoolset",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "uncrustify",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "geany",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "deno",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "_VSCode",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "file",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "7zip",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "nyagos",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "jq",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "windows-terminal",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "sqlitestudio",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "rapidee",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "notepad3",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "wget",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "curl",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "qownnotes",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "sed",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "_obsidian",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "mingw32",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "mingw64",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "make",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "cmake",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "ninja",
+    "path": ".",
+    "script": null
+  },
+  {
+    "name": "active-perl",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "active-python",
+    "path": null,
+    "script": null
+  },
+  {
+    "name": "ruby",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "git",
+    "path": "/cmd",
+    "script": null
+  }
 ]
