@@ -493,11 +493,13 @@
     <path>/bin</path>
     <script></script>
   </item>
+  <!--
   <item>
     <name>qt-static</name>
     <path>[extra]</path>
     <script></script>
   </item>
+  -->
   <item>
     <name>git</name>
     <path>/cmd</path>

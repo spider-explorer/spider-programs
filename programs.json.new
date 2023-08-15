@@ -375,11 +375,6 @@
     "script": null
   },
   {
-    "name": "qt-static",
-    "path": null,
-    "script": null
-  },
-  {
     "name": "git",
     "path": "/cmd",
     "script": null
