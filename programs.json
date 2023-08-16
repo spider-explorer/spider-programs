@@ -211,11 +211,13 @@
     "path": ".",
     "script": null
   },
+  /*
   {
     "name": "_racket",
     "path": null,
     "script": null
   },
+  */
   {
     "name": "zig",
     "path": ".",
