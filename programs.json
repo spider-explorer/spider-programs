@@ -4,55 +4,11 @@
     "path": null,
     "script": null
   },
-  /*
-  {
-    "name": "firefox",
-    "path": ".",
-    "script": null
-  },
-  {
-    "name": "libreoffice",
-    "path": "/LibreOffice/program",
-    "script": null
-  },
-  {
-    "name": "qt-creator",
-    "path": "/bin",
-    "script": null
-  },
-  {
-    "name": "cmder_mini",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "kotlin",
-    "path": "/bin",
-    "script": null
-  },
-  {
-    "name": "_scala",
-    "path": null,
-    "script": null
-  },
-  */
   {
     "name": "maven",
     "path": "/bin",
     "script": null
   },
-  /*
-  {
-    "name": "netbeans",
-    "path": "/bin",
-    "script": null
-  },
-  {
-    "name": "idea",
-    "path": "/IDE/bin",
-    "script": null
-  },
-  */
   {
     "name": "groovy",
     "path": "/bin",
@@ -63,23 +19,6 @@
     "path": "/bin",
     "script": null
   },
-  /*
-  {
-    "name": "innounp",
-    "path": ".",
-    "script": null
-  },
-  {
-    "name": "inno-setup",
-    "path": ".",
-    "script": null
-  },
-  {
-    "name": "inno-script-studio",
-    "path": ".",
-    "script": null
-  },
-  */
   {
     "name": "swig",
     "path": ".",
@@ -95,48 +34,6 @@
     "path": null,
     "script": null
   },
-  /*
-  {
-    "name": "wxWidgets-vc",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "wxWidgets",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "boost-vc",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "boost",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "_CodeLite",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "_wxFormBuilder",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "_run8",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "_eclipse-jee",
-    "path": null,
-    "script": null
-  },
-  */
   {
     "name": "_FolderSizePortable",
     "path": null,
@@ -152,38 +49,6 @@
     "path": null,
     "script": null
   },
-  /*
-  {
-    "name": "_rider",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "_cs-script",
-    "path": null,
-    "script": null
-  },
-  */
-  {
-    "name": "_PowerShell",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "_dotPeek",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "_gauche",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "sudo",
-    "path": ".",
-    "script": null
-  },
   {
     "name": "neovim",
     "path": "/bin",
@@ -194,61 +59,15 @@
     "path": ".",
     "script": null
   },
-  /*
-  {
-    "name": "_dotnet-sdk",
-    "path": null,
-    "script": null
-  },
-  */
-  {
-    "name": "wasmtime",
-    "path": ".",
-    "script": null
-  },
   {
     "name": "vim",
     "path": ".",
     "script": null
   },
-  /*
-  {
-    "name": "_racket",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "zig",
-    "path": ".",
-    "script": null
-  },
-  */
-  {
-    "name": "tidy",
-    "path": ".",
-    "script": null
-  },
-  {
-    "name": "_node",
-    "path": null,
-    "script": null
-  },
-  /*
-  {
-    "name": "openjdk20",
-    "path": "/bin",
-    "script": "        Util.Print(dir, \"dir\");\n        vars.JAVA_HOME=dir;"
-  },
-  */
   {
     "name": "zulu17-jdk",
     "path": "/bin",
     "script": "        Util.Print(dir, \"dir\");\n        vars.JAVA_HOME=dir;"
-  },
-  {
-    "name": "nu",
-    "path": ".",
-    "script": null
   },
   {
     "name": "sliksvn",
@@ -271,18 +90,8 @@
     "script": null
   },
   {
-    "name": "geany",
-    "path": "/bin",
-    "script": null
-  },
-  {
     "name": "deno",
     "path": ".",
-    "script": null
-  },
-  {
-    "name": "_VSCode",
-    "path": null,
     "script": null
   },
   {
@@ -343,11 +152,6 @@
   {
     "name": "sed",
     "path": ".",
-    "script": null
-  },
-  {
-    "name": "_obsidian",
-    "path": null,
     "script": null
   },
   {
