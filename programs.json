@@ -4,6 +4,7 @@
     "path": null,
     "script": null
   },
+  /*
   {
     "name": "firefox",
     "path": ".",
@@ -14,13 +15,11 @@
     "path": "/LibreOffice/program",
     "script": null
   },
-  /*
   {
     "name": "qt-creator",
     "path": "/bin",
     "script": null
   },
-  */
   {
     "name": "cmder_mini",
     "path": null,
@@ -36,11 +35,13 @@
     "path": null,
     "script": null
   },
+  */
   {
     "name": "maven",
     "path": "/bin",
     "script": null
   },
+  /*
   {
     "name": "netbeans",
     "path": "/bin",
@@ -51,6 +52,7 @@
     "path": "/IDE/bin",
     "script": null
   },
+  */
   {
     "name": "groovy",
     "path": "/bin",
@@ -61,6 +63,7 @@
     "path": "/bin",
     "script": null
   },
+  /*
   {
     "name": "innounp",
     "path": ".",
@@ -76,6 +79,7 @@
     "path": ".",
     "script": null
   },
+  */
   {
     "name": "swig",
     "path": ".",
@@ -112,7 +116,6 @@
     "path": null,
     "script": null
   },
-  */
   {
     "name": "_CodeLite",
     "path": null,
@@ -128,7 +131,6 @@
     "path": null,
     "script": null
   },
-  /*
   {
     "name": "_eclipse-jee",
     "path": null,
@@ -192,11 +194,13 @@
     "path": ".",
     "script": null
   },
+  /*
   {
     "name": "_dotnet-sdk",
     "path": null,
     "script": null
   },
+  */
   {
     "name": "wasmtime",
     "path": ".",
