@@ -39,16 +39,13 @@
     "path": null,
     "script": null
   },
-  {
-    "name": "_elvish",
-    "path": null,
-    "script": null
-  },
+  /*
   {
     "name": "_bluegriffon",
     "path": null,
     "script": null
   },
+  */
   {
     "name": "neovim",
     "path": "/bin",
