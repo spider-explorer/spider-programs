@@ -217,12 +217,12 @@
     "path": null,
     "script": null
   },
-  */
   {
     "name": "zig",
     "path": ".",
     "script": null
   },
+  */
   {
     "name": "tidy",
     "path": ".",
