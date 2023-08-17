@@ -302,10 +302,10 @@
       "script": null
     },
     "_busybox": {
-      "version": "bbox.2023.03.25.20.59.49",
+      "version": "bbox.2023.08.17.16.47.42",
       "ext": "zip",
       "path": ".",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_busybox-bbox.2023.03.25.20.59.49.zip",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_busybox-bbox.2023.08.17.16.47.42.zip",
       "script": null
     },
     "_bluegriffon": {

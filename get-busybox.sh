@@ -28,4 +28,5 @@ cd ..
 gh auth login --hostname github.com --git-protocol https --web
 gh release upload 64bit _busybox-$ts.zip
 cd $cwd
-sed -i -e "s/bbox[.][0-9]*[.][0-9]*[.][0-9]*[.][0-9]*[.][0-9]*[.][0-9]*/${ts}/g" extra.xml
+#sed -i -e "s/bbox[.][0-9]*[.][0-9]*[.][0-9]*[.][0-9]*[.][0-9]*[.][0-9]*/${ts}/g" extra.xml
+sed -i -e "s/bbox[.][0-9]*[.][0-9]*[.][0-9]*[.][0-9]*[.][0-9]*[.][0-9]*/${ts}/g" extra.json
