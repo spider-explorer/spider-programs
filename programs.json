@@ -4,6 +4,7 @@
     "path": null,
     "script": null
   },
+  /*
   {
     "name": "maven",
     "path": "/bin",
@@ -39,7 +40,6 @@
     "path": null,
     "script": null
   },
-  /*
   {
     "name": "_bluegriffon",
     "path": null,
@@ -61,11 +61,13 @@
     "path": ".",
     "script": null
   },
+  /*
   {
     "name": "zulu17-jdk",
     "path": "/bin",
     "script": "        Util.Print(dir, \"dir\");\n        vars.JAVA_HOME=dir;"
   },
+  */
   {
     "name": "sliksvn",
     "path": "/bin",
@@ -151,6 +153,7 @@
     "path": ".",
     "script": null
   },
+  /*
   {
     "name": "mingw32",
     "path": null,
@@ -191,6 +194,7 @@
     "path": "/bin",
     "script": null
   },
+  */
   {
     "name": "git",
     "path": "/cmd",
