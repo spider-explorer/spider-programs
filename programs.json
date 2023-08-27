@@ -1,9 +1,11 @@
 [
+  /*
   {
     "name": "_busybox",
     "path": null,
     "script": null
   },
+  */
   /*
   {
     "name": "maven",
@@ -45,23 +47,23 @@
     "path": null,
     "script": null
   },
-  */
   {
     "name": "neovim",
     "path": "/bin",
     "script": null
   },
+  */
   {
     "name": "dependencies",
     "path": ".",
     "script": null
   },
+  /*
   {
     "name": "vim",
     "path": ".",
     "script": null
   },
-  /*
   {
     "name": "zulu17-jdk",
     "path": "/bin",
@@ -93,11 +95,13 @@
     "path": ".",
     "script": null
   },
+  /*
   {
     "name": "file",
     "path": ".",
     "script": null
   },
+  */
   {
     "name": "7zip",
     "path": ".",
@@ -143,6 +147,7 @@
     "path": "/bin",
     "script": null
   },
+  /*
   {
     "name": "qownnotes",
     "path": ".",
@@ -153,7 +158,6 @@
     "path": ".",
     "script": null
   },
-  /*
   {
     "name": "mingw32",
     "path": null,
@@ -197,7 +201,7 @@
   */
   {
     "name": "git",
-    "path": "/cmd",
+    "path": "/cmd;/usr/bin",
     "script": null
   }
 ]
