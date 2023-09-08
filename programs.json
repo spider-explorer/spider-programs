@@ -1,4 +1,9 @@
 [
+  {
+    "name": "vscode",
+    "path": "/bin",
+    "script": null
+  },
   /*
   {
     "name": "_busybox",
