@@ -4,6 +4,16 @@
     "path": "/bin",
     "script": null
   },
+  {
+    "name": "gradle",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "zulu17-jdk",
+    "path": "/bin",
+    "script": "        Util.Print(dir, \"dir\");\n        vars.JAVA_HOME=dir;"
+  },
   /*
   {
     "name": "_busybox",
@@ -19,11 +29,6 @@
   },
   {
     "name": "groovy",
-    "path": "/bin",
-    "script": null
-  },
-  {
-    "name": "gradle",
     "path": "/bin",
     "script": null
   },
@@ -68,11 +73,6 @@
     "name": "vim",
     "path": ".",
     "script": null
-  },
-  {
-    "name": "zulu17-jdk",
-    "path": "/bin",
-    "script": "        Util.Print(dir, \"dir\");\n        vars.JAVA_HOME=dir;"
   },
   */
   {
