@@ -1,57 +1,16 @@
 #! deno run --allow-all --unstable
 import * as JSONC from "https://deno.land/std@0.177.1/encoding/jsonc.ts";
-import * as sys from "npm:open-system@2023.1012.204404";
+import * as sys from "npm:open-system@2023.1012.210317";
 
-/*
-async function fileExists(filepath) {
-    try {
-        const file = await Deno.stat(filepath);   
-        return file.isFile();
-    } catch (e) {
-        return false
-    }
-}
-
-async function execute(v) {
-    const p = Deno.run({
-        cmd: v
-    });
-    const { success, code } = await p.status();
-    let result = {};
-    result.success = success;
-    result.code = code;
-    return result;
-}
-
-async function executePipe(v) {
-    const p = Deno.run({
-        cmd: v,
-        stdout: "piped",
-        stderr: "piped",
-    });
-    const { success, code } = await p.status();
-    let result = {};
-    result.success = success;
-    result.code = code;
-    const rawOutput = await p.output();
-    result.stdout = new TextDecoder("shift-jis").decode(rawOutput);
-    const rawError = await p.stderrOutput();
-    result.stderr = new TextDecoder("shift-jis").decode(rawError);
-    return result;
-}
-*/
-
-//let cwd = Deno.cwd();
 let cwd = sys.cwd();
 
 //await execute(["gh", "auth", "login", "--hostname", "github.com", "--git-protocol", "https", "--web"]);
 await sys.run(["gh", "auth", "login", "--hostname", "github.com", "--git-protocol", "https", "--web"]);
 
 let buildDir = cwd + "\\.build";
-//Deno.mkdir(buildDir, { recursive: true });
 sys.mkdir(buildDir);
 
-let extra = JSONC.parse(await Deno.readTextFile('extra.json'))["software"];
+let extra = JSONC.parse(sys.readTextFileSync('extra.json'))["software"];
 console.log(extra);
 
 async function scoopAppInfo(rec /*key, path*/) {
@@ -74,7 +33,7 @@ await sys.run(["cmd.exe", "/c", "scoop", "bucket", "add", "main"]);
 await sys.run(["cmd.exe", "/c", "scoop", "bucket", "add", "extras"]);
 await sys.run(["cmd.exe", "/c", "scoop", "bucket", "add", "java"]);
 
-let programs = JSONC.parse(await Deno.readTextFile('programs.json'));
+let programs = JSONC.parse(sys.readTextFileSync('programs.json'));
 
 let result = [];
 
@@ -88,7 +47,6 @@ for (var rec of programs)
     result.push({ "name": app.name, "version": app.version, "path": app.path, "url": app.url, "ext": app.ext, "script": app.script });
     if (!app.exists)
     {
-        //Deno.chdir(app.dir);
         sys.chdir(app.dir);
         await execute(["cmd.exe", "/c", "dir"]);
 		if (await fileExists("IDE/bin/idea.properties")) {
@@ -101,14 +59,12 @@ for (var rec of programs)
         let archive = buildDir + `/${app.name}-${app.version}.zip`;
         if (!await fileExists(archive)) await execute(["7z.exe", "a", "-r", "-tzip", "-mcu=on", archive, "*", "-x!User Data", "-x!profile", "-x!data", "-x!distribution"]);
         console.log("(1)");
-        //Deno.chdir(cwd);
         sys.chdir(cwd);
         console.log("(2)");
         await sys.run(["gh.exe", "release", "upload", "64bit", archive]);
         console.log("(3)");
     }
 }
-//Deno.chdir(cwd);
 sys.chdir(cwd);
-Deno.writeTextFile("00-software.json", JSON.stringify({ "software" : result }, null, 2));
+sys.writeTextFileSync("00-software.json", JSON.stringify({ "software" : result }, null, 2));
 await sys.run(["gh.exe", "release", "upload", "64bit", "00-software.json", "--clobber"]);
