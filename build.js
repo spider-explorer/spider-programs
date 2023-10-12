@@ -1,6 +1,8 @@
 #! deno run --allow-all --unstable
 import * as JSONC from "https://deno.land/std@0.177.1/encoding/jsonc.ts";
+import * as sys from "npm:open-system@2023.1012.195138";
 
+/*
 async function fileExists(filepath) {
     try {
         const file = await Deno.stat(filepath);   
@@ -37,10 +39,13 @@ async function executePipe(v) {
     result.stderr = new TextDecoder("shift-jis").decode(rawError);
     return result;
 }
+*/
 
-let cwd = Deno.cwd();
+//let cwd = Deno.cwd();
+let cwd = sys.cwd();
 
-await execute(["gh", "auth", "login", "--hostname", "github.com", "--git-protocol", "https", "--web"]);
+//await execute(["gh", "auth", "login", "--hostname", "github.com", "--git-protocol", "https", "--web"]);
+await sys.run(["gh", "auth", "login", "--hostname", "github.com", "--git-protocol", "https", "--web"]);
 
 let buildDir = cwd + "\\.build";
 Deno.mkdir(buildDir, { recursive: true });
@@ -52,21 +57,21 @@ async function scoopAppInfo(rec /*key, path*/) {
     if (rec.path == null) {
       return { "name": rec.name, "path": extra[rec.name]["path"], "version": extra[rec.name]["version"], "dir": null, "ext": extra[rec.name]["ext"], "url": extra[rec.name]["url"], "script": extra[rec.name]["script"], "exists": true };
     }
-    await execute(["cmd.exe", "/c", "scoop", "install", rec.name]);
-    await execute(["cmd.exe", "/c", "scoop", "update", rec.name]);
-    let st = await executePipe(["scoop-console-x86_64-static.exe", "--latest", rec.name]);
+    await sys.run(["cmd.exe", "/c", "scoop", "install", rec.name]);
+    await sys.run(["cmd.exe", "/c", "scoop", "update", rec.name]);
+    let st = await sys.runWithOutput(["scoop-console-x86_64-static.exe", "--latest", rec.name]);
     let list = st.stdout.trim().split(" ");
     let version = list[0];
     let dir = list[1];
     let url = `https://github.com/spider-explorer/spider-programs/releases/download/64bit/${rec.name}-${version}.zip`;
-    st = await executePipe(["curl.exe", url, "-o", "/dev/null", "-w", "%{http_code}", "-s"]);
+    st = await sys.runWithOutput(["curl.exe", url, "-o", "/dev/null", "-w", "%{http_code}", "-s"], true/*ignoreErrors*/);
     return { "name": rec.name, "path": rec.path, "version": version, "dir": dir, "ext": "zip", "url": url, "script": rec.script, "exists": st.stdout != "404" };
 }
 
-await execute(["cmd.exe", "/c", "scoop", "install", "git"]);
-await execute(["cmd.exe", "/c", "scoop", "bucket", "add", "main"]);
-await execute(["cmd.exe", "/c", "scoop", "bucket", "add", "extras"]);
-await execute(["cmd.exe", "/c", "scoop", "bucket", "add", "java"]);
+await sys.run(["cmd.exe", "/c", "scoop", "install", "git"]);
+await sys.run(["cmd.exe", "/c", "scoop", "bucket", "add", "main"]);
+await sys.run(["cmd.exe", "/c", "scoop", "bucket", "add", "extras"]);
+await sys.run(["cmd.exe", "/c", "scoop", "bucket", "add", "java"]);
 
 let programs = JSONC.parse(await Deno.readTextFile('programs.json'));
 
@@ -96,10 +101,10 @@ for (var rec of programs)
         console.log("(1)");
         Deno.chdir(cwd);
         console.log("(2)");
-        await execute(["gh.exe", "release", "upload", "64bit", archive]);
+        await sys.run(["gh.exe", "release", "upload", "64bit", archive]);
         console.log("(3)");
     }
 }
 Deno.chdir(cwd);
 Deno.writeTextFile("00-software.json", JSON.stringify({ "software" : result }, null, 2));
-await execute(["gh.exe", "release", "upload", "64bit", "00-software.json", "--clobber"]);
+await sys.run(["gh.exe", "release", "upload", "64bit", "00-software.json", "--clobber"]);
