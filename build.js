@@ -1,6 +1,6 @@
 #! deno run --allow-all --unstable
 import * as JSONC from "https://deno.land/std@0.177.1/encoding/jsonc.ts";
-import * as sys from "npm:open-system@2023.1012.195138";
+import * as sys from "npm:open-system@2023.1012.204404";
 
 /*
 async function fileExists(filepath) {
@@ -48,7 +48,8 @@ let cwd = sys.cwd();
 await sys.run(["gh", "auth", "login", "--hostname", "github.com", "--git-protocol", "https", "--web"]);
 
 let buildDir = cwd + "\\.build";
-Deno.mkdir(buildDir, { recursive: true });
+//Deno.mkdir(buildDir, { recursive: true });
+sys.mkdir(buildDir);
 
 let extra = JSONC.parse(await Deno.readTextFile('extra.json'))["software"];
 console.log(extra);
@@ -87,7 +88,8 @@ for (var rec of programs)
     result.push({ "name": app.name, "version": app.version, "path": app.path, "url": app.url, "ext": app.ext, "script": app.script });
     if (!app.exists)
     {
-        Deno.chdir(app.dir);
+        //Deno.chdir(app.dir);
+        sys.chdir(app.dir);
         await execute(["cmd.exe", "/c", "dir"]);
 		if (await fileExists("IDE/bin/idea.properties")) {
            await execute(["sed", "-i",
@@ -99,12 +101,14 @@ for (var rec of programs)
         let archive = buildDir + `/${app.name}-${app.version}.zip`;
         if (!await fileExists(archive)) await execute(["7z.exe", "a", "-r", "-tzip", "-mcu=on", archive, "*", "-x!User Data", "-x!profile", "-x!data", "-x!distribution"]);
         console.log("(1)");
-        Deno.chdir(cwd);
+        //Deno.chdir(cwd);
+        sys.chdir(cwd);
         console.log("(2)");
         await sys.run(["gh.exe", "release", "upload", "64bit", archive]);
         console.log("(3)");
     }
 }
-Deno.chdir(cwd);
+//Deno.chdir(cwd);
+sys.chdir(cwd);
 Deno.writeTextFile("00-software.json", JSON.stringify({ "software" : result }, null, 2));
 await sys.run(["gh.exe", "release", "upload", "64bit", "00-software.json", "--clobber"]);
