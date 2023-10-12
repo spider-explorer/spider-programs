@@ -1,10 +1,9 @@
 #! deno run --allow-all --unstable
 import * as JSONC from "https://deno.land/std@0.177.1/encoding/jsonc.ts";
-import * as sys from "npm:open-system@2023.1012.210317";
+import * as sys from "npm:open-system@2023.1012.230524";
 
 let cwd = sys.cwd();
 
-//await execute(["gh", "auth", "login", "--hostname", "github.com", "--git-protocol", "https", "--web"]);
 await sys.run(["gh", "auth", "login", "--hostname", "github.com", "--git-protocol", "https", "--web"]);
 
 let buildDir = cwd + "\\.build";
@@ -48,16 +47,16 @@ for (var rec of programs)
     if (!app.exists)
     {
         sys.chdir(app.dir);
-        await execute(["cmd.exe", "/c", "dir"]);
-		if (await fileExists("IDE/bin/idea.properties")) {
-           await execute(["sed", "-i",
+        await sys.run(["cmd.exe", "/c", "dir"]);
+		if (sys.exists("IDE/bin/idea.properties")) {
+           await sys.run(["sed", "-i",
             "-e", "s/^idea[.]config[.]path=/#\\\\0/g",
             "-e", "s/^idea[.]system[.]path=/#\\\\0/g",
             "-e", "s/^idea[.]plugins[.]path=/#\\\\0/g",
             "-e", "s/^idea[.]log[.]path=/#\\\\0/g", "IDE/bin/idea.properties"]);
 		}
         let archive = buildDir + `/${app.name}-${app.version}.zip`;
-        if (!await fileExists(archive)) await execute(["7z.exe", "a", "-r", "-tzip", "-mcu=on", archive, "*", "-x!User Data", "-x!profile", "-x!data", "-x!distribution"]);
+        if (!sys.exists(archive)) await sys.run(["7z.exe", "a", "-r", "-tzip", "-mcu=on", archive, "*", "-x!User Data", "-x!profile", "-x!data", "-x!distribution"]);
         console.log("(1)");
         sys.chdir(cwd);
         console.log("(2)");
