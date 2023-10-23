@@ -1,9 +1,11 @@
 [
+  /*
   {
     "name": "nodejs-lts",
     "path": ".;/bin",
     "script": null
   },
+  */
   {
     "name": "vscode",
     "path": "/bin",
