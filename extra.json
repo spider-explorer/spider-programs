@@ -1,5 +1,12 @@
 {
   "software": {
+    "python": {
+      "version": "3.11.6.amd64",
+      "ext": "zip",
+      "path": "/Scripts;.",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/python-3.11.6.amd64.zip",
+      "script": null
+    },
     "node": {
       "version": "v20.11.0-win-x64",
       "ext": "zip",
@@ -292,13 +299,6 @@
       "ext": "zip",
       "path": "/bin",
       "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_rider-2023.1.2.win.zip",
-      "script": null
-    },
-    "_winpython": {
-      "version": "3.10.5",
-      "ext": "zip",
-      "path": "/Scripts;.",
-      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/_winpython-3.10.5.zip",
       "script": null
     },
     "_PowerShell": {

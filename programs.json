@@ -1,5 +1,10 @@
 [
   {
+    "name": "python",
+    "path": null,
+    "script": null
+  },
+  {
     "name": "dotnet-sdk",
     "path": ".",
     "script": null
