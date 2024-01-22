@@ -3,8 +3,11 @@ import * as JSONC from "https://deno.land/std@0.177.1/encoding/jsonc.ts";
 import * as sys from "npm:open-system@2023.1012.230524";
 
 let cwd = sys.cwd();
+let home = Deno.env.get("HOME");
 
-await sys.run(["gh", "auth", "login", "--hostname", "github.com", "--git-protocol", "https", "--web"]);
+//await sys.run(["gh", "auth", "login", "--hostname", "github.com", "--git-protocol", "https", "--web"]);
+
+await sys.run(["bash", cwd + "/gh-login.sh"]);
 
 let buildDir = cwd + "\\.build";
 sys.mkdir(buildDir);
