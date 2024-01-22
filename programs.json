@@ -7,6 +7,16 @@
   },
   */
   {
+    "name": "emacs",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "roswell",
+    "path": ".",
+    "script": null
+  },
+  {
     "name": "vscode",
     "path": "/bin",
     "script": null
