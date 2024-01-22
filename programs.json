@@ -1,11 +1,9 @@
 [
-  /*
   {
     "name": "nodejs-lts",
     "path": ".;/bin",
     "script": null
   },
-  */
   {
     "name": "emacs",
     "path": "/bin",
