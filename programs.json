@@ -1,4 +1,9 @@
 [
+  {
+    "name": "dotnet-sdk",
+    "path": ".",
+    "script": null
+  },
   /*
   {
     "name": "nodejs-lts",
