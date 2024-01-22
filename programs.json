@@ -1,7 +1,14 @@
 [
+  /*
   {
     "name": "nodejs-lts",
     "path": ".;/bin",
+    "script": null
+  },
+  */
+  {
+    "name": "node",
+    "path": null,
     "script": null
   },
   {

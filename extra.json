@@ -1,5 +1,12 @@
 {
   "software": {
+    "node": {
+      "version": "v20.11.0-win-x64",
+      "ext": "zip",
+      "path": ".;/bin",
+      "url": "https://github.com/spider-explorer/spider-programs/releases/download/64bit/node-v20.11.0-win-x64.zip",
+      "script": null
+    },
     "qt-static": {
       "version": "5.15.2",
       "ext": "zip",
