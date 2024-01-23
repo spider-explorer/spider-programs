@@ -1,7 +1,14 @@
 [
+  /*
   {
     "name": "racket",
     "path": ".",
+    "script": null
+  },
+  */
+  {
+    "name": "_racket",
+    "path": null,
     "script": null
   },
   {
