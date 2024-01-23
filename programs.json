@@ -1,5 +1,10 @@
 [
   {
+    "name": "racket",
+    "path": ".",
+    "script": null
+  },
+  {
     "name": "idea",
     "path": "/IDE/bin",
     "script": null
