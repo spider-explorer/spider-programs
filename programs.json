@@ -1,5 +1,10 @@
 [
   {
+    "name": "groovy",
+    "path": "/bin",
+    "script": null
+  },
+  {
     "name": "python",
     "path": null,
     "script": null
@@ -56,11 +61,6 @@
   /*
   {
     "name": "maven",
-    "path": "/bin",
-    "script": null
-  },
-  {
-    "name": "groovy",
     "path": "/bin",
     "script": null
   },
