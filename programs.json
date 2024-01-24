@@ -1,4 +1,9 @@
 [
+  {
+    "name": "go",
+    "path": "/bin",
+    "script": null
+  },
   /*
   {
     "name": "racket",
