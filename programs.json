@@ -1,5 +1,10 @@
 [
   {
+    "name": "premake",
+    "path": ".",
+    "script": null
+  },
+  {
     "name": "go",
     "path": "/bin",
     "script": null
