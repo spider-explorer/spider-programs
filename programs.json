@@ -4,23 +4,7 @@
     "path": ".",
     "script": null
   },
-  {
-    "name": "go",
-    "path": "/bin",
-    "script": null
-  },
   /*
-  {
-    "name": "racket",
-    "path": ".",
-    "script": null
-  },
-  */
-  {
-    "name": "_racket",
-    "path": null,
-    "script": null
-  },
   {
     "name": "idea",
     "path": "/IDE/bin",
@@ -41,23 +25,19 @@
     "path": ".",
     "script": null
   },
-  /*
-  {
-    "name": "nodejs-lts",
-    "path": ".;/bin",
-    "script": null
-  },
   */
   {
     "name": "node",
     "path": null,
     "script": null
   },
+  /*
   {
     "name": "emacs",
     "path": "/bin",
     "script": null
   },
+  */
   {
     "name": "roswell",
     "path": ".",
@@ -68,23 +48,18 @@
     "path": "/bin",
     "script": null
   },
+  /*
   {
     "name": "gradle",
     "path": "/bin",
     "script": null
   },
+  */
   {
     "name": "zulu17-jdk",
     "path": "/bin",
     "script": "        Util.Print(dir, \"dir\");\n        vars.JAVA_HOME=dir;"
   },
-  /*
-  {
-    "name": "_busybox",
-    "path": null,
-    "script": null
-  },
-  */
   /*
   {
     "name": "maven",
@@ -99,16 +74,6 @@
   {
     "name": "ant",
     "path": "/bin",
-    "script": null
-  },
-  {
-    "name": "resource_hacker",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "_FolderSizePortable",
-    "path": null,
     "script": null
   },
   {
@@ -127,16 +92,9 @@
     "path": ".",
     "script": null
   },
-  /*
   {
     "name": "vim",
     "path": ".",
-    "script": null
-  },
-  */
-  {
-    "name": "sliksvn",
-    "path": "/bin",
     "script": null
   },
   {
@@ -213,61 +171,11 @@
   },
   /*
   {
-    "name": "qownnotes",
-    "path": ".",
-    "script": null
-  },
-  {
-    "name": "sed",
-    "path": ".",
-    "script": null
-  },
-  {
-    "name": "mingw32",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "mingw64",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "make",
-    "path": "/bin",
-    "script": null
-  },
-  {
-    "name": "cmake",
-    "path": "/bin",
-    "script": null
-  },
-  {
-    "name": "ninja",
-    "path": ".",
-    "script": null
-  },
-  {
-    "name": "active-perl",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "active-python",
-    "path": null,
-    "script": null
-  },
-  {
-    "name": "ruby",
-    "path": "/bin",
-    "script": null
-  },
-  */
-  {
     "name": "mingw-winlibs",
     "path": "/bin",
     "script": null
   },
+  */
   {
     "name": "git",
     "path": "/cmd;/usr/bin",
