@@ -7,4 +7,4 @@ cwd=`pwd`
 #cd $cwd
 #$cwd/convert1/bin/Debug/net462/build.exe
 #$cwd/convert1/bin/Debug/net462/build.exe
-deno.exe run --allow-all --unstable ./build.js
+deno.exe run --allow-all --unstable-ffi ./build.js
