@@ -50,6 +50,9 @@ for (var rec of programs)
     if (!app.exists)
     {
         sys.chdir(app.dir);
+        if (app.name == "git") {
+           await sys.run(["cmd.exe", "/c", "cp", cwd + "/gitconfig", app.dir + "/gitconfig"]);
+        }
         await sys.run(["cmd.exe", "/c", "dir"]);
 		if (sys.exists("IDE/bin/idea.properties")) {
            await sys.run(["sed", "-i",
