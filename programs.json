@@ -1,4 +1,9 @@
 [
+  {
+    "name": "pwsh",
+    "path": ".",
+    "script": null
+  },
   /*
   {
     "name": "mono",
