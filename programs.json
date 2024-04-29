@@ -1,5 +1,10 @@
 [
   {
+    "name": "emacs",
+    "path": "/bin",
+    "script": null
+  },
+  {
     "name": "pwsh",
     "path": ".",
     "script": null
@@ -43,13 +48,6 @@
     "path": null,
     "script": null
   },
-  /*
-  {
-    "name": "emacs",
-    "path": "/bin",
-    "script": null
-  },
-  */
   {
     "name": "roswell",
     "path": ".",
