@@ -188,7 +188,8 @@
   */
   {
     "name": "git",
-    "path": "/cmd;/usr/bin",
+    //"path": "/cmd;/usr/bin",
+    "path": "/cmd",
     "script": null
   }
 ]
