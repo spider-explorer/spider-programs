@@ -1,4 +1,21 @@
 [
+  /*
+  {
+    "name": "vim",
+    "path": ".",
+    "script": null
+  },
+  */
+  {
+    "name": "neovim",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "file",
+    "path": ".",
+    "script": null
+  },
   {
     "name": "emacs",
     "path": "/bin",
@@ -91,19 +108,9 @@
     "path": null,
     "script": null
   },
-  {
-    "name": "neovim",
-    "path": "/bin",
-    "script": null
-  },
   */
   {
     "name": "dependencies",
-    "path": ".",
-    "script": null
-  },
-  {
-    "name": "vim",
     "path": ".",
     "script": null
   },
@@ -127,13 +134,6 @@
     "path": ".",
     "script": null
   },
-  /*
-  {
-    "name": "file",
-    "path": ".",
-    "script": null
-  },
-  */
   {
     "name": "7zip",
     "path": ".",
