@@ -87,6 +87,11 @@
     "path": "/bin",
     "script": "        Util.Print(dir, \"dir\");\n        vars.JAVA_HOME=dir;"
   },
+  {
+    "name": "zulu8-jdk",
+    "path": "/bin",
+    "script": null
+  },
   /*
   {
     "name": "maven",
