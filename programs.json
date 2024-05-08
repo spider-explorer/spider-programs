@@ -7,6 +7,11 @@
   },
   */
   {
+    "name": "swig",
+    "path": ".",
+    "script": null
+  },
+  {
     "name": "neovim",
     "path": "/bin",
     "script": null
@@ -96,11 +101,6 @@
   {
     "name": "maven",
     "path": "/bin",
-    "script": null
-  },
-  {
-    "name": "swig",
-    "path": ".",
     "script": null
   },
   {
