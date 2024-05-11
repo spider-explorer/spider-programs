@@ -45,11 +45,6 @@
   },
   /*
   {
-    "name": "idea",
-    "path": "/IDE/bin",
-    "script": null
-  },
-  {
     "name": "groovy",
     "path": "/bin",
     "script": null
@@ -80,13 +75,16 @@
     "path": "/bin",
     "script": null
   },
-  /*
+  {
+    "name": "idea",
+    "path": "/IDE/bin",
+    "script": null
+  },
   {
     "name": "gradle",
     "path": "/bin",
     "script": null
   },
-  */
   {
     "name": "zulu17-jdk",
     "path": "/bin",
