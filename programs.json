@@ -182,13 +182,11 @@
     "path": "/bin",
     "script": null
   },
-  /*
   {
     "name": "mingw-winlibs",
     "path": "/bin",
     "script": null
   },
-  */
   {
     "name": "git",
     //"path": "/cmd;/usr/bin",
