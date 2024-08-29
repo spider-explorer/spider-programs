@@ -183,6 +183,11 @@
     "script": null
   },
   {
+    "name": "zig",
+    "path": ".",
+    "script": null
+  },
+  {
     "name": "mingw-winlibs",
     "path": "/bin",
     "script": null
