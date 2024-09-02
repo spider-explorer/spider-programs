@@ -7,6 +7,11 @@
   },
   */
   {
+    "name": "ant",
+    "path": "/bin",
+    "script": null
+  },
+  {
     "name": "swig",
     "path": ".",
     "script": null
@@ -75,11 +80,13 @@
     "path": "/bin",
     "script": null
   },
+  /*
   {
     "name": "idea",
     "path": "/IDE/bin",
     "script": null
   },
+  */
   {
     "name": "gradle",
     "path": "/bin",
@@ -90,11 +97,13 @@
     "path": "/bin",
     "script": "        Util.Print(dir, \"dir\");\n        vars.JAVA_HOME=dir;"
   },
+  /*
   {
     "name": "zulu8-jdk",
     "path": "/bin",
     "script": null
   },
+  */
   /*
   {
     "name": "maven",
