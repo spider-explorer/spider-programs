@@ -7,6 +7,11 @@
   },
   */
   {
+    "name": "jruby",
+    "path": "/bin",
+    "script": null
+  },
+  {
     "name": "ant",
     "path": "/bin",
     "script": null
