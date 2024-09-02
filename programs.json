@@ -7,6 +7,11 @@
   },
   */
   {
+    "name": "groovy",
+    "path": "/bin",
+    "script": null
+  },
+  {
     "name": "jruby",
     "path": "/bin",
     "script": null
@@ -54,11 +59,6 @@
     "script": null
   },
   /*
-  {
-    "name": "groovy",
-    "path": "/bin",
-    "script": null
-  },
   {
     "name": "python",
     "path": null,
