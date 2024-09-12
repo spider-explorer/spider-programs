@@ -103,11 +103,16 @@
     "script": null
   },
   {
-    "name": "graalvm",
+    "name": "graalvm22-jdk17",
     "path": "/bin",
     "script": null
   },
   /*
+  {
+    "name": "graalvm",
+    "path": "/bin",
+    "script": null
+  },
   {
     "name": "zulu17-jdk",
     "path": "/bin",
