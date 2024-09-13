@@ -102,12 +102,12 @@
     "path": "/bin",
     "script": null
   },
-  /*
   {
     "name": "graalvm22-jdk17",
     "path": "/bin",
     "script": null
   },
+  /*
   {
     "name": "graalvm",
     "path": "/bin",
