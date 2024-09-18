@@ -98,7 +98,7 @@
     "script": null
   },
   {
-    "name": "zulu22-jdk",
+    "name": "zulu11-jdk",
     "path": "/bin",
     "script": null
   },
@@ -110,6 +110,11 @@
   },
   {
     "name": "graalvm",
+    "path": "/bin",
+    "script": null
+  },
+  {
+    "name": "zulu22-jdk",
     "path": "/bin",
     "script": null
   },
