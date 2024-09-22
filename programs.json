@@ -93,7 +93,7 @@
   },
   */
   {
-    "name": "gradle",
+    "name": "gradle-bin",
     "path": "/bin",
     "script": null
   },
