@@ -92,17 +92,19 @@
     "script": null
   },
   */
+  /*
   {
     "name": "gradle-bin",
     "path": "/bin",
     "script": null
   },
+  */
+  /*
   {
     "name": "zulu11-jdk",
     "path": "/bin",
     "script": null
   },
-  /*
   {
     "name": "graalvm22-jdk17",
     "path": "/bin",
